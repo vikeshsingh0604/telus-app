@@ -1,0 +1,84 @@
+Month,Date,Process 
+January,2026-01-05,U3
+January,2026-01-06,"U1, U2"
+January,2026-01-12,"U7, U8"
+January,2026-01-19,U3
+January,2026-01-20,"U1, U2,U4"
+January,2026-01-26,"U7, U8"
+February,2026-02-02,U3
+February,2026-02-03,"U1, U2"
+February,2026-02-09,"U7, U8"
+February,2026-02-16,U3
+February,2026-02-17,"U1, U2"
+February,2026-02-19,U4
+February,2026-02-23,"U7, U8"
+March,2026-03-02,U3
+March,2026-03-03,"U1, U2"
+March,2026-03-09,"U7, U8"
+March,2026-03-16,U3
+March,2026-03-17,"U1, U2"
+March,2026-03-23,"U4, U7, U8"
+March,2026-03-30,U3
+March,2026-03-31,"U1, U2"
+April,2026-04-06,"U7, U8"
+April,2026-04-13,U3
+April,2026-04-14,"U1, U2"
+April,2026-04-20,"U4, U7, U8"
+April,2026-04-27,U3
+April,2026-04-28,"U1, U2"
+May,2026-05-04,"U7, U8"
+May,2026-05-11,U3
+May,2026-05-12,"U1, U2"
+May,2026-05-18,"U7, U8"
+May,2026-05-20,U4
+May,2026-05-21,U3
+May,2026-05-26,"U1, U2"
+June,2026-06-01,"U7, U8"
+June,2026-06-08,U3
+June,2026-06-09,"U1, U2"
+June,2026-06-15,"U7, U8"
+June,2026-06-22,"U4, U3"
+June,2026-06-23,"U1, U2"
+June,2026-06-29,"U7, U8"
+July,2026-07-06,U3
+July,2026-07-07,"U1, U2"
+July,2026-07-13,"U7, U8"
+July,2026-07-20,U3
+July,2026-07-21,"U1, U2, U4"
+July,2026-07-27,"U7, U8"
+August,2026-08-03,U3
+August,2026-08-04,"U1, U2"
+August,2026-08-10,"U7, U8"
+August,2026-08-17,U3
+August,2026-08-18,"U1, U2"
+August,2026-08-20,U4
+August,2026-08-24,"U7, U8"
+August,2026-08-31,U3
+September,2026-09-01,"U1, U2"
+September,2026-09-08,"U7, U8"
+September,2026-09-14,U3
+September,2026-09-15,"U1, U2"
+September,2026-09-21,"U4, U7, U8"
+September,2026-09-28,U3
+September,2026-09-29,"U1, U2"
+October,2026-10-05,"U7, U8"
+October,2026-10-12,U3
+October,2026-10-13,"U1, U2"
+October,2026-10-19,"U4, U7, U8"
+October,2026-10-26,U3
+October,2026-10-27,"U1, U2"
+November,2026-11-02,"U7, U8"
+November,2026-11-09,U3
+November,2026-11-10,"U1, U2"
+November,2026-11-16,"U7, U8"
+November,2026-11-18,U4
+November,2026-11-23,U3
+November,2026-11-24,"U1, U2"
+November,2026-11-30,"U7, U8"
+December,2026-12-07,U3
+December,2026-12-08,"U1, U2"
+December,2026-12-14,"U7, U8"
+December,2026-12-17,U4
+December,2026-12-21,U3
+December,2026-12-22,"U1, U2"
+December,2026-12-28,"U7, U8"

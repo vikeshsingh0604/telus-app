@@ -1,0 +1,484 @@
+Date,Clients,Process,Scheduled Day,TAT,Process AHT,Peer review AHT,Source
+2026-03-15,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-03-15,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-03-16,TForce Freight,TForce Monthly BQT Report,"15th of every month, or the first business day prior or after the 15th, if it happens to fall on a weekend",,,,REPORT.CSV
+2026-03-16,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-03-16,TForce Freight,Term Audit Report,"15th of every month, or the first business day prior or after the 15th, if it happens to fall on a weekend",,,,REPORT.CSV
+2026-03-16,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-03-16,Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,,,,REPORT.CSV
+2026-03-16,Kinder Morgan,2. Weekly Address Change Report ,Monday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-03-16,Nissan,Monthly Data Validation Reports,15 of every Month,EOD,15.0,12.0,REPORT.CSV
+2026-03-16,CBS,Steps For ERD_NRD Updates,"15th of every month, or the prior business day or first business day after the 15th, if that falls over a weekend",,,,DATALOAD.CSV
+2026-03-16,All Client DB Client,LumpSum Data,Monday,EOD,15.0,12.0,REPORT.CSV
+2026-03-16,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-03-16,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-03-16,Lyondell,U3,As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-03-16,ConAgra,Census File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-03-16,AIG,BERMUDa,Monday,,45.0,25.0,DATALOAD.CSV
+2026-03-16,BCOM3,Data Load,Monday,EOD,55.0,30.0,DATALOAD.CSV
+2026-03-16,Kaiser,CPMG Census , Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-03-16,Kaiser,HPMG Financial,Bi -Weekly Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-03-16,ADP,Census Data Load,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-03-16,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-03-16,ConAgra,Financial File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-03-16,Lyondell,Census Data Load,Monday,EOD,90.0,30.0,DATALOAD.CSV
+2026-03-16,AIG,PPSFT ,Monday,,90.0,25.0,DATALOAD.CSV
+2026-04-01,Edgewell,3. The Monthly Validator Report,1st business day of every  month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Regions,Bi-Weekly Data load,Bi-weekly Wednesday,EOD,120.0,45.0,DATALOAD.CSV
+2026-04-01,AEP,AEP Cash Leveling Payment Report,"1st business day of every New quarter (January 1st, April 1st, July 1st and October 1st )",,15.0,12.0,REPORT.CSV
+2026-04-01,Kinder Morgan,13. Quarterly Lump Sum Report,1st business day of every New quarter,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,CBS,OverpaymentRiskReductionReport,13th of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV
+2026-04-01,Lyondell,Monthly Age 65 Report,First business day of each month,,15.0,12.0,REPORT.CSV
+2026-04-01,Bimbo,Bimbo Rehire Report ,1st business day of each month,,,,REPORT.CSV
+2026-04-01,Edgewell,2.   The Ongoing Leveling Report,1st business day of every  month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,AIG,OverpaymentRiskReductionReport,22nd of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV
+2026-04-01,Nissan,Future Changes Report,1st business day of every New quarter,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,AVON,New Avon Billing Report,1st business day of each month,,,,REPORT.CSV
+2026-04-01,Kinder Morgan,HRIS Data Load,Wednesday,4:00 PM CST,150.0,45.0,DATALOAD.CSV
+2026-04-01,BOSCH,Data Load,Wednesday ,,,,DATALOAD.CSV
+2026-04-01,AEP,MbcDbCalcVw Report,1st business day of every  month,,,,REPORT.CSV
+2026-04-01,Hertz,Hertz Overpayment Risk Reduction Report,25th of each month (or first business day after),,,,REPORT.CSV
+2026-04-01,AEP,Monthly Person Status Detail Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,Rock Tenn,3. Hourly Disability Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Hexion,Hexion Billing Report,First business day of each month,,,,REPORT.CSV
+2026-04-01,Kinder Morgan,Kinder Morgan WDIH Quarterly Processing ,First business day of every quarter,,,,REPORT.CSV
+2026-04-01,AEP,Mandatory Cash Out Report,First business day of every quarter,,,,REPORT.CSV
+2026-04-01,Kaiser,HCM Financial ,Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-01,ADP,ADP ACTIVE SUPSENDED REPORT,"1ST  of every month, or the next business day if the 1ST  falls on a weekend",,12.0,12.0,REPORT.CSV
+2026-04-01,CAMPBELL,Week Financial/Earnings (Salaried participants),Bi-weekly Wednesday,,40.0,20.0,DATALOAD.CSV
+2026-04-01,Edgewell,1. The Age 62 Leveling Report,1st business day of every New quarter,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Hexion,OverpaymentRiskReductionReport,18th of each month (or first business day after holiday),,,,REPORT.CSV
+2026-04-01,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-01,Philips,Population Counts Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,Rock Tenn,4. Monthly Validator Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,AEP,Weekly Estimates Online Report,Wednesday,9:00 AM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Hilton,Overpayment Report ,Wednesday,ASAP,15.0,12.0,REPORT.CSV
+2026-04-01,Edgewell,3. The Age 65 Deferred Vested Report,1st business day of every New quarter,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Campbell,OverpaymentRiskReductionReport,21st of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV
+2026-04-01,Nissan,Monthly Billing Counts Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,MMC,MMC Post04 Report,1st business day of every  month,3:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Edgewell,2.  The Age 65 Disability In Pay Report,1st business day of every New quarter,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,URS,AECOM/URS Billing Report,1st business day of each month,,,,REPORT.CSV
+2026-04-01,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-04-01,Hilton,Monthly MbcDbCalcVw Report,1st business day of the month,,,,REPORT.CSV
+2026-04-01,Rock Tenn,1. Term Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,AEP,Person Status Report,1st business day of every  month,12:00 AM CST,15.0,12.0,REPORT.CSV
+2026-04-01,HMCO,Quarterly Cash Balance Reports,1st business day of every New quarter,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,Rock Tenn,2. TV NRD Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,TForce Freight,Suspension of Benefits,First business day of every month,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Kinder Morgan,Monthly Billing Counts Report,1st day of the month,,15.0,12.0,REPORT.CSV
+2026-04-01,BBU,Census and Financial Load,Wednesday,EOD,120.0,30.0,DATALOAD.CSV
+2026-04-01,Kaiser,TSPMG Financial,Bi - Weekly Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-01,Kinder Morgan,18. Plantation Pipeline Population Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,Kaiser,SCPMG Census, Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-01,MMC,MMC Future Change Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-04-01,Kaiser,HCM census file,Wednesday,,,,DATALOAD.CSV
+2026-04-01,AEP,AEP Total Rewards File Transfer,Wednesday,6:00 AM EST and 10:00 AM EST ,15.0,10.0,DATALOAD.CSV
+2026-04-01,ADP,Monthly Validator reports,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-01,Edgewell,1.  Small Sum Cash Out Report,1st business day of every  month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-18,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-18,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-20,ADP,Census Data Load,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-04-20,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-04-20,Lyondell,"U4, U7, U8",As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-04-20,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-20,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-20,Kaiser,CPMG Census , Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-20,ConAgra,Census File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-04-20,Edgewell,Weekly,5th and 20th of each month,12:30 PM CST,60.0,25.0,DATALOAD.CSV
+2026-04-20,BCOM3,Data Load,Monday,EOD,55.0,30.0,DATALOAD.CSV
+2026-04-20,ConAgra,Financial File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-04-20,Kaiser,HPMG Financial,Bi -Weekly Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-20,Lyondell,Census Data Load,Monday,EOD,90.0,30.0,DATALOAD.CSV
+2026-04-20,AIG,PPSFT ,Monday,,90.0,25.0,DATALOAD.CSV
+2026-04-20,AIG,BERMUDa,Monday,,45.0,25.0,DATALOAD.CSV
+2026-04-20,BJC,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-20,Edgewell,5. Future Changes Report,20th of each month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-04-20,HMH,Risk Reduction Report,20th of each month,,15.0,12.0,REPORT.CSV
+2026-04-20,Hexion,OverpaymentRiskReductionReport,18th of each month (or first business day after holiday),,,,REPORT.CSV
+2026-04-20,All Client DB Client,LumpSum Data,Monday,EOD,15.0,12.0,REPORT.CSV
+2026-04-20,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-04-20,Conagra,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,15.0,12.0,REPORT.CSV
+2026-04-20,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-04-20,SSCC,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,,,REPORT.CSV
+2026-04-20,Kinder Morgan,2. Weekly Address Change Report ,Monday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-20,Volvo,Overpayment Risk Reduction Report,20th of each month (or first business day after),,,,REPORT.CSV
+2026-04-20,Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,,,,REPORT.CSV
+2026-04-20,BSA,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,15.0,12.0,REPORT.CSV
+2026-04-20,Region/AMSouth,Overpayment Risk Reduction Report,20th of each month (or first business day after),,,,REPORT.CSV
+2026-04-21,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-21,Campbell,OverpaymentRiskReductionReport,21st of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV
+2026-04-21,Edgewell,Overpayment Risk Reduction Report,21ST  of each month,,,,REPORT.CSV
+2026-04-21,Hexion,Census Data Load,Tuesday,24 hrs after receive the file,50.0,20.0,DATALOAD.CSV
+2026-04-21,HMH,Census Data Load,Tuesday,EOD,90.0,30.0,DATALOAD.CSV
+2026-04-21,Volvo,SAP HRIS LOAD,Tuesday (Please process on Monday on 14th Sept'26 and 14 DEC'26),,90.0,25.0,DATALOAD.CSV
+2026-04-21,AIG,Warnings,Tuesday After dataLoad,,150.0,60.0,DATALOAD.CSV
+2026-04-21,Kaiser,TSPMG Census , Tuesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-21,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-21,MMC,MMC OTR Batch Automation Review,"21st of every month, or the first business day after the 21st, if that falls over a weekend", before 12 PM ET,,,REPORT.CSV
+2026-04-21,CAMPBELL,Weekly Financial/Earnings (Hourly participants),Tuesday,,40.0,20.0,DATALOAD.CSV
+2026-04-22,AEP,Weekly Estimates Online Report,Wednesday,9:00 AM CST,15.0,12.0,REPORT.CSV
+2026-04-22,BBU,Census and Financial Load,Wednesday,EOD,120.0,30.0,DATALOAD.CSV
+2026-04-22,BOSCH,Data Load,Wednesday ,,,,DATALOAD.CSV
+2026-04-22,Kaiser,SCPMG Census, Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-22,Hilton,Overpayment Report ,Wednesday,ASAP,15.0,12.0,REPORT.CSV
+2026-04-22,AIG,OverpaymentRiskReductionReport,22nd of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV
+2026-04-22,Kaiser,HCM census file,Wednesday,,,,DATALOAD.CSV
+2026-04-22,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-04-22,Kaiser,HCM Financial ,Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-22,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-22,Kinder Morgan,HRIS Data Load,Wednesday,4:00 PM CST,150.0,45.0,DATALOAD.CSV
+2026-04-22,Regions,Bi-Weekly Data load,Bi-weekly Wednesday,EOD,120.0,45.0,DATALOAD.CSV
+2026-04-22,AEP,AEP Total Rewards File Transfer,Wednesday,6:00 AM EST and 10:00 AM EST ,15.0,10.0,DATALOAD.CSV
+2026-04-22,CAMPBELL,Week Financial/Earnings (Salaried participants),Bi-weekly Wednesday,,40.0,20.0,DATALOAD.CSV
+2026-04-23,BJC,Bi-Weekly Census File,Bi - Weekly Thursday,Thursday ASAP,180.0,30.0,DATALOAD.CSV
+2026-04-23,Hertz,Census Load,Thursday,EOD,90.0,30.0,DATALOAD.CSV
+2026-04-23,Kaiser,FED Census ,Bi - Weekly Thursday ,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-23,Hertz,Financial Data Load,Thursday,EOD,75.0,30.0,DATALOAD.CSV
+2026-04-23,Kinder Morgan, Overpay Risk Reduction ,23rd of each Month,EOD,15.0,12.0,REPORT.CSV
+2026-04-23,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-23,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-23,Kaiser,MAPMG Census ,Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-23,AVON,HRIS Data Load,Thursday ,,30.0,20.0,DATALOAD.CSV
+2026-04-23,Kaiser, Weekly Dual Payroll Report,Every Thrusday after HCM financial load,EOD,50.0,12.0,REPORT.CSV
+2026-04-23,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-04-24,AEP,InactiveDataFile,Friday,11:30 AM CST,90.0,30.0,DATALOAD.CSV
+2026-04-24,WestRock,Data Load,Friday,Next day (12:00 PM CST),190.0,45.0,DATALOAD.CSV
+2026-04-24,URS,Data Load,Bi - Weekly Friday,5:00 PM CST,65.0,20.0,DATALOAD.CSV
+2026-04-24,Hertz,Validator Reports ,Next day After Hertz Census Load,,15.0,12.0,REPORT.CSV
+2026-04-24,TForce Freight,Data Load,Friday ,EOD,,,DATALOAD.CSV
+2026-04-24,Kinder Morgan,1. Weekly Death  Report ,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-24,URS,Term Batch,Last Friday of the month,Friday EOD but after dataload,40.0,30.0,DATALOAD.CSV
+2026-04-24,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-24,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-04-24,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-24,AEP,Overpayment Parameter Report,Friday,EOD,,,REPORT.CSV
+2026-04-24,NYSE,HRIS Data Load,FRIDAY,,30.0,20.0,DATALOAD.CSV
+2026-04-24,Kaiser,FED Financial,Bi -Weekly Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-24,Kaiser,HPMG Census, Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-24,MMC,MMC Weekly Phased Retirement Status Code Report,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-24,MMC,MMC Weekly Disbursement Report,Friday,11 AM CST,15.0,12.0,REPORT.CSV
+2026-04-27,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-04-27,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-04-27,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-04-27,Lyondell,Census Data Load,Monday,EOD,90.0,30.0,DATALOAD.CSV
+2026-04-27,Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,,,,REPORT.CSV
+2026-04-27,Lyondell,U3,As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-04-27,ConAgra,Financial File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-04-27,AIG,PPSFT ,Monday,,90.0,25.0,DATALOAD.CSV
+2026-04-27,Kinder Morgan,2. Weekly Address Change Report ,Monday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-04-27,All Client DB Client,LumpSum Data,Monday,EOD,15.0,12.0,REPORT.CSV
+2026-04-27,ADP,Census Data Load,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-04-27,BCOM3,Data Load,Monday,EOD,55.0,30.0,DATALOAD.CSV
+2026-04-27,AIG,BERMUDa,Monday,,45.0,25.0,DATALOAD.CSV
+2026-04-27,Hertz,Hertz Overpayment Risk Reduction Report,25th of each month (or first business day after),,,,REPORT.CSV
+2026-04-27,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-27,Kaiser,CPMG Census , Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-27,ConAgra,Census File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-04-27,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-28,CAMPBELL,Weekly Financial/Earnings (Hourly participants),Tuesday,,40.0,20.0,DATALOAD.CSV
+2026-04-28,Mmc,Semi-monthly Data load,As per Calender,EOD,170.0,50.0,DATALOAD.CSV
+2026-04-28,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-28,All Benecalc client,All benecalc client staging check expect kaiser,last tuesday of the every month,,,,DATALOAD.CSV
+2026-04-28,HMH,Census Data Load,Tuesday,EOD,90.0,30.0,DATALOAD.CSV
+2026-04-28,Conagra,Conagra AAC Table Recon Process,Last Conagra Financial file process or last Tuesday of the month,,,,REPORT.CSV
+2026-04-28,Kaiser,TSPMG Census , Tuesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-28,Lyondell,"U1, U2",As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-04-28,Volvo,SAP HRIS LOAD,Tuesday (Please process on Monday on 14th Sept'26 and 14 DEC'26),,90.0,25.0,DATALOAD.CSV
+2026-04-28,AIG,Warnings,Tuesday After dataLoad,,150.0,60.0,DATALOAD.CSV
+2026-04-28,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-28,Hexion,Census Data Load,Tuesday,24 hrs after receive the file,50.0,20.0,DATALOAD.CSV
+2026-04-29,BBU,Census and Financial Load,Wednesday,EOD,120.0,30.0,DATALOAD.CSV
+2026-04-29,BOSCH,Data Load,Wednesday ,,,,DATALOAD.CSV
+2026-04-29,Kaiser,TSPMG Financial,Bi - Weekly Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-29,MMC ,Term report,Following day after MMC dataload,,15.0,12.0,REPORT.CSV
+2026-04-29,Hilton,Overpayment Report ,Wednesday,ASAP,15.0,12.0,REPORT.CSV
+2026-04-29,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-29,Kaiser,HCM Financial ,Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-29,Kinder Morgan,HRIS Data Load,Wednesday,4:00 PM CST,150.0,45.0,DATALOAD.CSV
+2026-04-29,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-04-29,AEP,AEP Total Rewards File Transfer,Wednesday,6:00 AM EST and 10:00 AM EST ,15.0,10.0,DATALOAD.CSV
+2026-04-29,Kaiser,SCPMG Census, Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-29,Kaiser,HCM census file,Wednesday,,,,DATALOAD.CSV
+2026-04-29,AEP,Weekly Estimates Online Report,Wednesday,9:00 AM CST,15.0,12.0,REPORT.CSV
+2026-04-30,Kaiser,CPMG Financial,Bi - Weekly Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-30,Kaiser, Weekly Dual Payroll Report,Every Thrusday after HCM financial load,EOD,50.0,12.0,REPORT.CSV
+2026-04-30,Hertz,Financial Data Load,Thursday,EOD,75.0,30.0,DATALOAD.CSV
+2026-04-30,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-04-30,AVON,HRIS Data Load,Thursday ,,30.0,20.0,DATALOAD.CSV
+2026-04-30,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-04-30,Kaiser,MAPMG Census ,Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-30,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-04-30,Hertz,Census Load,Thursday,EOD,90.0,30.0,DATALOAD.CSV
+2026-04-30,Kaiser,SCPMG Financial,Bi - Weekly Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-04-30,Kinder Morgan,Bi-Weekly Pay File,Bi - Weekly Thursday,4:00 PM CST,75.0,25.0,DATALOAD.CSV
+2026-04-30,Lyondell,Parameter 639 and 640 Report,Last day of every month,EOD,15.0,12.0,REPORT.CSV
+2026-05-01,AVON,New Avon Billing Report,1st business day of each month,,,,REPORT.CSV
+2026-05-01,Rock Tenn,4. Monthly Validator Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,Hertz,Validator Reports ,Next day After Hertz Census Load,,15.0,12.0,REPORT.CSV
+2026-05-01,Kinder Morgan,1. Weekly Death  Report ,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,Nissan,Monthly Billing Counts Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-05-01,Kinder Morgan,Monthly Billing Counts Report,1st day of the month,,15.0,12.0,REPORT.CSV
+2026-05-01,ADP,Monthly Validator reports,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,MMC,MMC Future Change Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-05-01,Kinder Morgan,Kinder Morgan WDIH Biweekly Batch Processing,Bi Weekly Friday(After payroll 2nd part and BW to BC file completed),9:00 AM CST,50.0,25.0,REPORT.CSV
+2026-05-01,Hilton,Monthly MbcDbCalcVw Report,1st business day of the month,,,,REPORT.CSV
+2026-05-01,Edgewell,1.  Small Sum Cash Out Report,1st business day of every  month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,Lyondell,Monthly Age 65 Report,First business day of each month,,15.0,12.0,REPORT.CSV
+2026-05-01,TForce Freight,Data Load,Friday ,EOD,,,DATALOAD.CSV
+2026-05-01,AEP,Monthly Person Status Detail Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-05-01,MMC,MMC Post04 Report,1st business day of every  month,3:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,Hilton,Hilton Quarterly RMD,"quarterly-first day of the second month of each quarter: 2/1, 5/1, 8/1, and 11/1)",EOD,15.0,12.0,REPORT.CSV
+2026-05-01,WestRock,Data Load,Friday,Next day (12:00 PM CST),190.0,45.0,DATALOAD.CSV
+2026-05-01,Kinder Morgan,18. Plantation Pipeline Population Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-05-01,Edgewell,2.   The Ongoing Leveling Report,1st business day of every  month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,URS,AECOM/URS Billing Report,1st business day of each month,,,,REPORT.CSV
+2026-05-01,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-01,ADP,ADP ACTIVE SUPSENDED REPORT,"1ST  of every month, or the next business day if the 1ST  falls on a weekend",,12.0,12.0,REPORT.CSV
+2026-05-01,Rock Tenn,2. TV NRD Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,TForce Freight,Suspension of Benefits,First business day of every month,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,AEP,Overpayment Parameter Report,Friday,EOD,,,REPORT.CSV
+2026-05-01,Hexion,Hexion Billing Report,First business day of each month,,,,REPORT.CSV
+2026-05-01,Rock Tenn,3. Hourly Disability Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,AEP,InactiveDataFile,Friday,11:30 AM CST,90.0,30.0,DATALOAD.CSV
+2026-05-01,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-01,Kaiser,MAPMG Financial,Bi -Weekly Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-01,AEP,MbcDbCalcVw Report,1st business day of every  month,,,,REPORT.CSV
+2026-05-01,Kinder Morgan,Data Validation Reports ,Bi Weekly Friday,12 PM CST,30.0,15.0,REPORT.CSV
+2026-05-01,Edgewell,3. The Monthly Validator Report,1st business day of every  month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,AEP,Person Status Report,1st business day of every  month,12:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-01,MMC,MMC Weekly Phased Retirement Status Code Report,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-01,Bimbo,Bimbo Rehire Report ,1st business day of each month,,,,REPORT.CSV
+2026-05-01,Kinder Morgan,Bi-Weekly Pay File (2nd Part),Bi - Weekly Friday next day after Kinder Payroll File,4:00 PM CST,25.0,20.0,DATALOAD.CSV
+2026-05-01,MMC,MMC Weekly Disbursement Report,Friday,11 AM CST,15.0,12.0,REPORT.CSV
+2026-05-01,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-01,NYSE,HRIS Data Load,FRIDAY,,30.0,20.0,DATALOAD.CSV
+2026-05-01,Philips,Population Counts Report,1st business day of every  month,EOD,15.0,12.0,REPORT.CSV
+2026-05-01,Kaiser,HPMG Census, Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-01,Rock Tenn,1. Term Report,1st business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,ConAgra,Census File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-04,Bcom,Interest Posting Process,First Monday start after first BCOM Maintenace file,,,,REPORT.CSV
+2026-05-04,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-04,Lyondell,"U7, U8",As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-05-04,AIG,BERMUDa,Monday,,45.0,25.0,DATALOAD.CSV
+2026-05-04,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-05-04,BCOM3,Data Load,Monday,EOD,55.0,30.0,DATALOAD.CSV
+2026-05-04,Kaiser,HPMG Financial,Bi -Weekly Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-04,Kinder Morgan,4. Age 60 and 65 Report ,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,Lyondell,Census Data Load,Monday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-04,ADP,Census Data Load,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-04,All Client DB Client,LumpSum Data,Monday,EOD,15.0,12.0,REPORT.CSV
+2026-05-04,ConAgra,Financial File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-04,Kinder Morgan,7. Future Change Report ,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,AIG,PPSFT ,Monday,,90.0,25.0,DATALOAD.CSV
+2026-05-04,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-04,Kinder Morgan,3. Population Counts ,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,Kinder Morgan,9. Stop Pay Report,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,Kinder Morgan,8. Monthly True Up Trailing Pay Report,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-04,Kaiser,CPMG Census , Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-04,Kinder Morgan,5. Web Usage Report,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-05-04,Kinder Morgan,2. Weekly Address Change Report ,Monday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,Kinder Morgan,6. New Hire Report ,2nd business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-04,Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,,,,REPORT.CSV
+2026-05-05,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-05,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-05,Edgewell,Weekly,5th and 20th of each month,12:30 PM CST,60.0,25.0,DATALOAD.CSV
+2026-05-05,Kaiser,TSPMG Census , Tuesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-05,CAMPBELL,Weekly Financial/Earnings (Hourly participants),Tuesday,,40.0,20.0,DATALOAD.CSV
+2026-05-05,AIG,Warnings,Tuesday After dataLoad,,150.0,60.0,DATALOAD.CSV
+2026-05-05,Volvo,SAP HRIS LOAD,Tuesday (Please process on Monday on 14th Sept'26 and 14 DEC'26),,90.0,25.0,DATALOAD.CSV
+2026-05-05,Hexion,Census Data Load,Tuesday,24 hrs after receive the file,50.0,20.0,DATALOAD.CSV
+2026-05-05,HMH,Census Data Load,Tuesday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-06,Hilton,Overpayment Report ,Wednesday,ASAP,15.0,12.0,REPORT.CSV
+2026-05-06,Kaiser,HCM Financial ,Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-06,BCOm,BCom Maintenance Post Load Reports ,6th of Every month (or following business day).,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-05-06,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-06,BOSCH,Data Load,Wednesday ,,,,DATALOAD.CSV
+2026-05-06,BBU,Census and Financial Load,Wednesday,EOD,120.0,30.0,DATALOAD.CSV
+2026-05-06,Kaiser,HCM census file,Wednesday,,,,DATALOAD.CSV
+2026-05-06,TD Bank,Census & Financial Load,4th Business day of every month,EOD,75.0,30.0,DATALOAD.CSV
+2026-05-06,AEP,Weekly Estimates Online Report,Wednesday,9:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-06,AEP,AEP Total Rewards File Transfer,Wednesday,6:00 AM EST and 10:00 AM EST ,15.0,10.0,DATALOAD.CSV
+2026-05-06,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-06,Kinder Morgan,HRIS Data Load,Wednesday,4:00 PM CST,150.0,45.0,DATALOAD.CSV
+2026-05-06,CAMPBELL,Week Financial/Earnings (Salaried participants),Bi-weekly Wednesday,,40.0,20.0,DATALOAD.CSV
+2026-05-06,Kaiser,SCPMG Census, Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-06,Regions,Bi-Weekly Data load,Bi-weekly Wednesday,EOD,120.0,45.0,DATALOAD.CSV
+2026-05-07,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-05-07,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-07,Kinder Morgan,16. Rehire Report ,5th business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-07,Kaiser, Weekly Dual Payroll Report,Every Thrusday after HCM financial load,EOD,50.0,12.0,REPORT.CSV
+2026-05-07,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-07,Kinder Morgan,15. Term Report ,5th business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-07,Kinder Morgan,17. Monthly Commencement Report ,5th business day of every  month,4:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-07,Hertz,Financial Data Load,Thursday,EOD,75.0,30.0,DATALOAD.CSV
+2026-05-07,CVS,HRIS LOAD,7th of Month,,90.0,30.0,DATALOAD.CSV
+2026-05-07,BJC,Bi-Weekly Census File,Bi - Weekly Thursday,Thursday ASAP,180.0,30.0,DATALOAD.CSV
+2026-05-07,Kaiser,MAPMG Census ,Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-07,AVON,HRIS Data Load,Thursday ,,30.0,20.0,DATALOAD.CSV
+2026-05-07,Hertz,Census Load,Thursday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-07,Kaiser,FED Census ,Bi - Weekly Thursday ,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-08,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-08,URS,Data Load,Bi - Weekly Friday,5:00 PM CST,65.0,20.0,DATALOAD.CSV
+2026-05-08,BW Overpayment,BW Overpayment reports ,one day prior to 10th of every month,EOD,30.0,15.0,REPORT.CSV
+2026-05-08,MMC,MMC Weekly Phased Retirement Status Code Report,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-08,Hertz,Validator Reports ,Next day After Hertz Census Load,,15.0,12.0,REPORT.CSV
+2026-05-08,AEP,Overpayment Parameter Report,Friday,EOD,,,REPORT.CSV
+2026-05-08,MMC,MMC Prudential Disbursement Report ,8th of each Month,11:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-08,AEP,InactiveDataFile,Friday,11:30 AM CST,90.0,30.0,DATALOAD.CSV
+2026-05-08,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-08,Kaiser,FED Financial,Bi -Weekly Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-08,WestRock,Data Load,Friday,Next day (12:00 PM CST),190.0,45.0,DATALOAD.CSV
+2026-05-08,TForce Freight,Data Load,Friday ,EOD,,,DATALOAD.CSV
+2026-05-08,MMC,MMC Weekly Disbursement Report,Friday,11 AM CST,15.0,12.0,REPORT.CSV
+2026-05-08,Kaiser,HPMG Census, Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-08,Kinder Morgan,1. Weekly Death  Report ,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-08,NYSE,HRIS Data Load,FRIDAY,,30.0,20.0,DATALOAD.CSV
+2026-05-08,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-11,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-11,Kaiser,CPMG Census , Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-11,AIG,BERMUDa,Monday,,45.0,25.0,DATALOAD.CSV
+2026-05-11,Hilton,Census File Processing,9th of Every month,EOD,50.0,15.0,DATALOAD.CSV
+2026-05-11,ConAgra,Census File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-11,ConAgra,Financial File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-11,BCOM3,Data Load,Monday,EOD,55.0,30.0,DATALOAD.CSV
+2026-05-11,Nissan,Nissan Ongoing File,9th of Every month,EOD,120.0,30.0,DATALOAD.CSV
+2026-05-11,Lyondell,U3,As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-05-11,AIG,PPSFT ,Monday,,90.0,25.0,DATALOAD.CSV
+2026-05-11,ADP,Census Data Load,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-11,Kinder Morgan,2. Weekly Address Change Report ,Monday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-11,Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,,,,REPORT.CSV
+2026-05-11,TD Bank,Overpayment Risk Reduction Report,10th of every Month,EOD,15.0,12.0,REPORT.CSV
+2026-05-11,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-05-11,Hilton,Financial File Processing,9th of Every month,EOD,50.0,15.0,DATALOAD.CSV
+2026-05-11,HMH,HMH DOD report,10th of the Month or the next business day if the 10th falls on a weekend,,15.0,12.0,REPORT.CSV
+2026-05-11,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-11,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-05-11,Lyondell,Census Data Load,Monday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-11,All Client DB Client,LumpSum Data,Monday,EOD,15.0,12.0,REPORT.CSV
+2026-05-11,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-12,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-12,Kaiser,TSPMG Census , Tuesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-12,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-12,Lyondell,"U1, U2",As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-05-12,AIG,Warnings,Tuesday After dataLoad,,150.0,60.0,DATALOAD.CSV
+2026-05-12,Volvo,SAP HRIS LOAD,Tuesday (Please process on Monday on 14th Sept'26 and 14 DEC'26),,90.0,25.0,DATALOAD.CSV
+2026-05-12,Hexion,Census Data Load,Tuesday,24 hrs after receive the file,50.0,20.0,DATALOAD.CSV
+2026-05-12,CAMPBELL,Weekly Financial/Earnings (Hourly participants),Tuesday,,40.0,20.0,DATALOAD.CSV
+2026-05-12,HMH,Census Data Load,Tuesday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-13,Kinder Morgan,HRIS Data Load,Wednesday,4:00 PM CST,150.0,45.0,DATALOAD.CSV
+2026-05-13,Hilton,Overpayment Report ,Wednesday,ASAP,15.0,12.0,REPORT.CSV
+2026-05-13,Mmc,Semi-monthly Data load,As per Calender,EOD,170.0,50.0,DATALOAD.CSV
+2026-05-13,BBU,Census and Financial Load,Wednesday,EOD,120.0,30.0,DATALOAD.CSV
+2026-05-13,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-13,CBS,OverpaymentRiskReductionReport,13th of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV
+2026-05-13,Kaiser,HCM census file,Wednesday,,,,DATALOAD.CSV
+2026-05-13,Kaiser,SCPMG Census, Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-13,Kaiser,HCM Financial ,Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-13,AEP,AEP Total Rewards File Transfer,Wednesday,6:00 AM EST and 10:00 AM EST ,15.0,10.0,DATALOAD.CSV
+2026-05-13,Kaiser,TSPMG Financial,Bi - Weekly Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-13,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-13,AEP,Weekly Estimates Online Report,Wednesday,9:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-13,HMH,Financial Data Load,"Wednesday, After 2nd Tuesday (the next HMH financial file to put the Financial file on  HOLD until I/Helena review and approve the file. )",,70.0,30.0,DATALOAD.CSV
+2026-05-14,Kaiser,MAPMG Census ,Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-14,AVON,HRIS Data Load,Thursday ,,30.0,20.0,DATALOAD.CSV
+2026-05-14,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-14,MMC ,Term report,Following day after MMC dataload,,15.0,12.0,REPORT.CSV
+2026-05-14,Kaiser, Weekly Dual Payroll Report,Every Thrusday after HCM financial load,EOD,50.0,12.0,REPORT.CSV
+2026-05-14,Hertz,Financial Data Load,Thursday,EOD,75.0,30.0,DATALOAD.CSV
+2026-05-14,Kaiser,CPMG Financial,Bi - Weekly Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-14,Kinder Morgan,Bi-Weekly Pay File,Bi - Weekly Thursday,4:00 PM CST,75.0,25.0,DATALOAD.CSV
+2026-05-14,Hertz,Census Load,Thursday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-14,Kaiser,SCPMG Financial,Bi - Weekly Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-14,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-05-14,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-15,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-15,TForce Freight,TForce Monthly BQT Report,"15th of every month, or the first business day prior or after the 15th, if it happens to fall on a weekend",,,,REPORT.CSV
+2026-05-15,TForce Freight,Term Audit Report,"15th of every month, or the first business day prior or after the 15th, if it happens to fall on a weekend",,,,REPORT.CSV
+2026-05-15,Hertz,Validator Reports ,Next day After Hertz Census Load,,15.0,12.0,REPORT.CSV
+2026-05-15,Kinder Morgan,Kinder Morgan WDIH Biweekly Batch Processing,Bi Weekly Friday(After payroll 2nd part and BW to BC file completed),9:00 AM CST,50.0,25.0,REPORT.CSV
+2026-05-15,MMC,MMC Weekly Phased Retirement Status Code Report,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-15,MMC,MMC Weekly Disbursement Report,Friday,11 AM CST,15.0,12.0,REPORT.CSV
+2026-05-15,Kinder Morgan,Data Validation Reports ,Bi Weekly Friday,12 PM CST,30.0,15.0,REPORT.CSV
+2026-05-15,Kinder Morgan,12. DeathTooSooner Report,Acc. to processing calender,10:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-15,Kinder Morgan,1. Weekly Death  Report ,Friday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-15,Nissan,Monthly Data Validation Reports,15 of every Month,EOD,15.0,12.0,REPORT.CSV
+2026-05-15,Kinder Morgan,Bi-Weekly Pay File (2nd Part),Bi - Weekly Friday next day after Kinder Payroll File,4:00 PM CST,25.0,20.0,DATALOAD.CSV
+2026-05-15,Kaiser,HPMG Census, Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-15,TForce Freight,Data Load,Friday ,EOD,,,DATALOAD.CSV
+2026-05-15,AEP,Overpayment Parameter Report,Friday,EOD,,,REPORT.CSV
+2026-05-15,CBS,Steps For ERD_NRD Updates,"15th of every month, or the prior business day or first business day after the 15th, if that falls over a weekend",,,,DATALOAD.CSV
+2026-05-15,AEP,InactiveDataFile,Friday,11:30 AM CST,90.0,30.0,DATALOAD.CSV
+2026-05-15,WestRock,Data Load,Friday,Next day (12:00 PM CST),190.0,45.0,DATALOAD.CSV
+2026-05-15,NYSE,HRIS Data Load,FRIDAY,,30.0,20.0,DATALOAD.CSV
+2026-05-15,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-15,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-15,Kaiser,MAPMG Financial,Bi -Weekly Friday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-18,ConAgra,Financial File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-18,AIG,BERMUDa,Monday,,45.0,25.0,DATALOAD.CSV
+2026-05-18,ADP,Census Data Load,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-18,Lyondell,Census Data Load,Monday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-18,ConAgra,Census File Processing,Monday,EOD,90.0,25.0,DATALOAD.CSV
+2026-05-18,Kaiser,HPMG Financial,Bi -Weekly Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-18,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-18,All Client DB Client,LumpSum Data,Monday,EOD,15.0,12.0,REPORT.CSV
+2026-05-18,AIG,PPSFT ,Monday,,90.0,25.0,DATALOAD.CSV
+2026-05-18,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-18,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-18,Hexion,OverpaymentRiskReductionReport,18th of each month (or first business day after holiday),,,,REPORT.CSV
+2026-05-18,MMC,MMC Other Bank Disbursements Report ,17th of each Month,11:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-18,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,8:00 am CST,15.0,12.0,REPORT.CSV
+2026-05-18,Kinder Morgan,2. Weekly Address Change Report ,Monday,12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-18,Hilton,OverpayRiskReduction,17th of each Month(or the first Monday for weekends and holidays),ASAP,15.0,12.0,REPORT.CSV
+2026-05-18,BCOM3,Data Load,Monday,EOD,55.0,30.0,DATALOAD.CSV
+2026-05-18,Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,,,,REPORT.CSV
+2026-05-18,MMC,Overpayment Risk Reduction Report ,17th of each month (or first business day after holiday),,,,REPORT.CSV
+2026-05-18,Kaiser,CPMG Census , Monday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-18,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-05-18,Lyondell,"U7, U8",As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-05-19,Kaiser,TSPMG Census , Tuesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-19,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-19,CAMPBELL,Weekly Financial/Earnings (Hourly participants),Tuesday,,40.0,20.0,DATALOAD.CSV
+2026-05-19,AIG,Warnings,Tuesday After dataLoad,,150.0,60.0,DATALOAD.CSV
+2026-05-19,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-19,HMH,Census Data Load,Tuesday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-19,Hexion,Census Data Load,Tuesday,24 hrs after receive the file,50.0,20.0,DATALOAD.CSV
+2026-05-19,Volvo,SAP HRIS LOAD,Tuesday (Please process on Monday on 14th Sept'26 and 14 DEC'26),,90.0,25.0,DATALOAD.CSV
+2026-05-20,Edgewell,5. Future Changes Report,20th of each month,4:30 PM CST,15.0,12.0,REPORT.CSV
+2026-05-20,SSCC,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,,,REPORT.CSV
+2026-05-20,Region/AMSouth,Overpayment Risk Reduction Report,20th of each month (or first business day after),,,,REPORT.CSV
+2026-05-20,HMH,Risk Reduction Report,20th of each month,,15.0,12.0,REPORT.CSV
+2026-05-20,Hilton,Overpayment Report ,Wednesday,ASAP,15.0,12.0,REPORT.CSV
+2026-05-20,BJC,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),12:00 PM CST,15.0,12.0,REPORT.CSV
+2026-05-20,BSA,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,15.0,12.0,REPORT.CSV
+2026-05-20,Volvo,Overpayment Risk Reduction Report,20th of each month (or first business day after),,,,REPORT.CSV
+2026-05-20,BBU,Reports,"Monday, Wednesday and Friday",EOD,15.0,12.0,REPORT.CSV
+2026-05-20,Kaiser,HCM census file,Wednesday,,,,DATALOAD.CSV
+2026-05-20,Conagra,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,15.0,12.0,REPORT.CSV
+2026-05-20,BBU,Census and Financial Load,Wednesday,EOD,120.0,30.0,DATALOAD.CSV
+2026-05-20,Edgewell,Weekly,5th and 20th of each month,12:30 PM CST,60.0,25.0,DATALOAD.CSV
+2026-05-20,AEP,Weekly Estimates Online Report,Wednesday,9:00 AM CST,15.0,12.0,REPORT.CSV
+2026-05-20,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-20,AEP,AEP Total Rewards File Transfer,Wednesday,6:00 AM EST and 10:00 AM EST ,15.0,10.0,DATALOAD.CSV
+2026-05-20,CAMPBELL,Week Financial/Earnings (Salaried participants),Bi-weekly Wednesday,,40.0,20.0,DATALOAD.CSV
+2026-05-20,Kaiser,SCPMG Census, Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-20,Kinder Morgan,HRIS Data Load,Wednesday,4:00 PM CST,150.0,45.0,DATALOAD.CSV
+2026-05-20,Lyondell,U4,As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-05-20,Regions,Bi-Weekly Data load,Bi-weekly Wednesday,EOD,120.0,45.0,DATALOAD.CSV
+2026-05-20,Kaiser,HCM Financial ,Wednesday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-21,Lyondell,U3,As per Calender,EOD,85.0,30.0,DATALOAD.CSV
+2026-05-21,Kaiser, Weekly Dual Payroll Report,Every Thrusday after HCM financial load,EOD,50.0,12.0,REPORT.CSV
+2026-05-21,MMC,MMC OTR Batch Automation Review,"21st of every month, or the first business day after the 21st, if that falls over a weekend", before 12 PM ET,,,REPORT.CSV
+2026-05-21,CAMPBELL,Census Data Load,Monday & Thursday,,40.0,20.0,DATALOAD.CSV
+2026-05-21,AVON,HRIS Data Load,Thursday ,,30.0,20.0,DATALOAD.CSV
+2026-05-21,Kinder Morgan,BW to Benecalc,Daily except Wednesday,4:00 PM CST,70.0,20.0,DATALOAD.CSV
+2026-05-21,BJC,Bi-Weekly Census File,Bi - Weekly Thursday,Thursday ASAP,180.0,30.0,DATALOAD.CSV
+2026-05-21,Hertz,Census Load,Thursday,EOD,90.0,30.0,DATALOAD.CSV
+2026-05-21,Kaiser,MAPMG Census ,Thursday,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-21,Kaiser,FED Census ,Bi - Weekly Thursday ,EOD,105.0,30.0,DATALOAD.CSV
+2026-05-21,AEP,Census Data Load,Daily,11:30 AM CST,61.0,20.0,DATALOAD.CSV
+2026-05-21,Edgewell,Overpayment Risk Reduction Report,21ST  of each month,,,,REPORT.CSV
+2026-05-21,Hertz,Financial Data Load,Thursday,EOD,75.0,30.0,DATALOAD.CSV
+2026-05-21,Campbell,OverpaymentRiskReductionReport,21st of each month (or first business day after holiday) ,,15.0,12.0,REPORT.CSV

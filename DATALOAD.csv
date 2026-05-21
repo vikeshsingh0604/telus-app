@@ -1,0 +1,73 @@
+Location,Client ,Process ,Scheduled Day,Client Contact,Frequency,TAT,Process AHT,Peer review AHT
+Vernon Hills,AEP,Census Data Load,Daily,Helena Nzuve,Daily,11:30 AM CST,61,20
+,AEP,InactiveDataFile,Friday,Helena Nzuve,Weekly,11:30 AM CST,90,30
+,AEP,Financial Data Load,Two Files in a Month,Helena Nzuve,Bi- Weekly,11:30 AM CST,75,20
+,AEP,AEP Total Rewards File Transfer,Wednesday,Helena Nzuve,Weekly,6:00 AM EST and 10:00 AM EST ,15,10
+,ADP,Census Data Load,Monday,Denise Soll,Weekly,EOD,90,25
+,AIG,PPSFT ,Monday,,,,90,25
+,AIG,BERMUDa,Monday,,,,45,25
+,AIG,Warnings,Tuesday After dataLoad,,,,150,60
+,BJC,Bi-Weekly Census File,Bi - Weekly Thursday,Paula Kissel,Bi- Weekly,Thursday ASAP,180,30
+,Kaiser,HCM Financial ,Wednesday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,FED Census ,Bi - Weekly Thursday ,Joshua Reid,Daily,EOD,105,30
+,Kaiser,FED Financial,Bi -Weekly Friday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,MAPMG Census ,Thursday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,MAPMG Financial,Bi -Weekly Friday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,HPMG Census, Friday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,HPMG Financial,Bi -Weekly Monday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,TSPMG Census , Tuesday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,TSPMG Financial,Bi - Weekly Wednesday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,CPMG Census , Monday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,CPMG Financial,Bi - Weekly Thursday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,SCPMG Census, Wednesday,Joshua Reid,Daily,EOD,105,30
+,Kaiser,SCPMG Financial,Bi - Weekly Thursday,Joshua Reid,Daily,EOD,105,30
+,Edgewell,Weekly,5th and 20th of each month,Helena Nzuve,,12:30 PM CST,60,25
+,Philips,Census File Load,Not required,Helena Nzuve,Weekly,EOD,80,20
+,Hertz,Census Load,Thursday,Paula Kissel,Weekly,EOD,90,30
+,Hertz,Financial Data Load,Thursday,Paula Kissel,Weekly,EOD,75,30
+,TD Bank,Census & Financial Load,4th Business day of every month,Denise Soll,Monthly,EOD,75,30
+,Hilton,Census File Processing,9th of Every month,Denise Soll,Monthly,EOD,50,15
+,Hilton,Financial File Processing,9th of Every month,Denise Soll,Monthly,EOD,50,15
+,Nissan,Nissan Ongoing File,9th of Every month,Helena Nzuve,Monthly,EOD,120,30
+,Kinder Morgan,HRIS Data Load,Wednesday,Paula Kissel,Weekly,4:00 PM CST,150,45
+,Kinder Morgan,Bi-Weekly Pay File,Bi - Weekly Thursday,Paula Kissel,Bi- Weekly,4:00 PM CST,75,25
+,Kinder Morgan,Bi-Weekly Pay File (2nd Part),Bi - Weekly Friday next day after Kinder Payroll File,Paula Kissel,Bi- Weekly,4:00 PM CST,25,20
+,Kinder Morgan,BW to Benecalc,Daily except Wednesday,Paula Kissel,Daily,4:00 PM CST,70,20
+,MMC,Semi-monthly Data load,As per Calender,"Paula Kissel, Denise Soll ",Semi-Monthly,EOD,170,50
+,ConAgra,Census File Processing,Monday,Helena Nzuve,Weekly,EOD,90,25
+,ConAgra,Financial File Processing,Monday,Helena Nzuve,Weekly,EOD,90,25
+,HMCO,Monthly File,1st of the month- Waiting for Live again,Denise Soll,Monthly,24 hrs after receive the file,,
+,WestRock,Data Load,Friday,Paula Kissel,Weekly,Next day (12:00 PM CST),190,45
+,URS,Data Load,Bi - Weekly Friday,Helena Nzuve,Weekly,5:00 PM CST,65,20
+,URS,Term Batch,Last Friday of the month,Helena Nzuve,Monthly,Friday EOD but after dataload,40,30
+,Ardagh,Census Data Load,Monday - No longer needed from 02/23/2026 ,"Brian Miller , Rachel Spellman",Weekly,4:00 PM CST,100,45
+,Ardagh,Financial Data Load,No longer needed from 02/17/2026 Monday After Second Saturday,"Brian Miller , Rachel Spellman",Monthly,4:00 PM CST,120,45
+,Lyondell,Census Data Load,Monday,Denise Soll,Weekly,EOD,90,30
+,Lyondell,Financial Data Load,As per Calender,Denise Soll,Weekly,EOD,85,30
+,HMH,Census Data Load,Tuesday,Helena Nzuve,Weekly,EOD,90,30
+,HMH,Financial Data Load,"Wednesday, After 2nd Tuesday (the next HMH financial file to put the Financial file on  HOLD until I/Helena review and approve the file. )",Helena Nzuve,Monthly,,70,30
+,Hexion,Census Data Load,Tuesday,Christopher Conley,Weekly,24 hrs after receive the file,50,20
+,BCOM3,Data Load,Monday,Nathan Haggett,Weekly,EOD,55,30
+,BCOM3,Main Post Report,(Notification through Onshore Mail),Nathan Haggett,Monthly,EOD,15,12
+,BCOM3,Fidelity File,(Notification through Onshore Mail),Nathan Haggett,Monthly,EOD,45,30
+,Regions,Bi-Weekly Data load,Bi-weekly Wednesday,Nathan Haggett,Bi- Weekly,EOD,120,45
+,BBU,Census and Financial Load,Wednesday,Jason Goodworth ,Weekly,EOD,120,30
+Dallas,NYSE,HRIS Data Load,FRIDAY,,Weekly,,30,20
+,AVON,HRIS Data Load,Thursday ,,,,30,20
+,CAMPBELL,Census Data Load,Monday & Thursday,,,,40,20
+,CAMPBELL,Weekly Financial/Earnings (Hourly participants),Tuesday,,,,40,20
+,CAMPBELL,Week Financial/Earnings (Salaried participants),Bi-weekly Wednesday,,,,40,20
+,CVS,HRIS LOAD,7th of Month,,,,90,30
+,Volvo,SAP HRIS LOAD,Tuesday (Please process on Monday on 14th Sept'26 and 14 DEC'26),,,,90,25
+,BOSCH,Data Load,Not required - Wednesday - stop their ongoing file as of 4/28 ,,,,,
+,TForce Freight,Data Load,Friday ,Paula Kissel,,EOD,,
+,Kaiser,HCM census file,Wednesday,Joshua Reid,,,,
+,Kaiser,Kaiser YOS Batch Calculation,As per email request,Joshua Reid,,,,
+,All Benecalc client,All benecalc client staging check expect kaiser,last tuesday of the every month,,,,,
+,CBS,Steps For ERD_NRD Updates,"15th of every month, or the prior business day or first business day after the 15th, if that falls over a weekend",Paula,,,,
+,CAMPBELL,Balance/Emp_Plan_Account Update Process,As per email request,Helena,,,30,15
+,BSA,Balance/Emp_Plan_Account Update Process,As per email request,Helena,,,30,15
+,BIMBO,Balance/Emp_Plan_Account Update Process,As per email request,Helena,,,,
+,CBS,Balance/Emp_Plan_Account Update Process,As per email request,Helena,,,,
+,VOLVO,Balance/Emp_Plan_Account Update Process,As per email request,Helena,,,,
+,NYSE,Balance/Emp_Plan_Account Update Process,As per email request,Helena,,,,

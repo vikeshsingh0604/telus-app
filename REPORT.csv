@@ -1,0 +1,107 @@
+Client ,Process ,Scheduled Day,Client Contact,Frequency,TAT,Process AHT,Peer review AHT
+Volvo,Overpayment Risk Reduction Report,20th of each month (or first business day after),Denise Soll,Monthly,,,
+URS,AECOM/URS Billing Report,1st business day of each month,Denise Soll,Monthly,,,
+TForce Freight,Suspension of Benefits,First business day of every month,Paula,Monthly,12:00 PM CST,15,12
+TForce Freight,	Opt Into Email Global Audit Report ,"15th of each quarter (Jan-Apr-Jul-Oct), or the next business day after if it falls on a weekend",Denise Soll,Monthly ,EOD,15,12
+TForce Freight,TForce Monthly BQT Report,"15th of every month, or the first business day prior or after the 15th, if it happens to fall on a weekend",Paula Kissel,Monthly,,,
+TForce Freight,Term Audit Report,"15th of every month, or the first business day prior or after the 15th, if it happens to fall on a weekend",Paula Kissel,Monthly,,,
+TD Bank,Overpayment Risk Reduction Report,10th of every Month,Paula/Denise,Monthly,EOD,15,12
+TD Bank,	Opt Into Email Global Audit Report ,"15th of each quarter (Jan-Apr-Jul-Oct), or the next business day after if it falls on a weekend",Denise Soll,Bi -Weekly,EOD,15,12
+SSCC,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),Denise Soll,,,,
+Rock Tenn,1. Term Report,1st business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Rock Tenn,2. TV NRD Report,1st business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Rock Tenn,3. Hourly Disability Report,1st business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Rock Tenn,4. Monthly Validator Report,1st business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Region/AMSouth,Overpayment Risk Reduction Report,20th of each month (or first business day after),Paula Kissel,Monthly,,,
+Philips,Population Counts Report,1st business day of every  month,Denise Soll,Monthly,EOD,15,12
+Nissan,Monthly Data Validation Reports,15 of every Month,Paula Kissel,Monthly,EOD,15,12
+Nissan,Future Changes Report,1st business day of every New quarter,Paula Kissel,Quarterly,EOD,15,12
+Nissan,Monthly Billing Counts Report,1st business day of every  month,Paula Kissel,Monthly,EOD,15,12
+Multiple,DB Recon Reports,After Receving Email,Paula Kissel,Monthly,EOD,15,12
+Multiple,	Email Address Review Report ,"15th of each quarter (Jan-Apr-Jul-Oct), or the next business day after if it falls on a weekend",Denise Soll,Bi -Weekly,EOD,15,12
+MMC ,Term report,Following day after MMC dataload,,,,15,12
+MMC,MMC Weekly Disbursement Report,Friday,Paula Kissel,Weekly,11 AM CST,15,12
+MMC,MMC Post04 Report,1st business day of every  month,Paula Kissel,Monthly,3:00 PM CST,15,12
+MMC,MMC Prudential Disbursement Report ,8th of each Month,Paula Kissel,Monthly,11:00 AM CST,15,12
+MMC,MMC Other Bank Disbursements Report ,17th of each Month,Paula Kissel,Monthly,11:00 AM CST,15,12
+MMC,MMC Future Change Report,1st business day of every  month,Paula Kissel,Monthly,EOD,15,12
+MMC,Manual calcs,After Receving Email,Paula/Denise,Monthly,EOD,15,12
+MMC,MMC Weekly Phased Retirement Status Code Report,Friday,Paula/Denise,Weekly,12:00 PM CST,15,12
+MMC,Overpayment Risk Reduction Report ,17th of each month (or first business day after holiday),Denise Soll,,,,
+MMC,MMC OTR Batch Automation Review,"21st of every month, or the first business day after the 21st, if that falls over a weekend",Paula Kissel,Monthly, before 12 PM ET,,
+Lyondell,Parameter 639 and 640 Report,Last day of every month,Denise Soll,Monthly,EOD,15,12
+Lyondell,Monthly Age 65 Report,First business day of each month,Denise Soll,Monthly,,15,12
+Lyondell,Quarterly Active in Plan Report,"25th of the month before each quarter (March, June, September, December). If the 25th falls on a Monday, process the Census file first before running the report. In December, the report will need to be run on the next business day after the holiday.",Denise Soll,Quaterly,,,
+Kinder Morgan,1. Weekly Death  Report ,Friday,Paula Kissel,Weekly,12:00 PM CST,15,12
+Kinder Morgan,2. Weekly Address Change Report ,Monday,Paula Kissel,Weekly,12:00 PM CST,15,12
+Kinder Morgan,3. Population Counts ,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,4. Age 60 and 65 Report ,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,5. Web Usage Report,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,6. New Hire Report ,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,7. Future Change Report ,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,8. Monthly True Up Trailing Pay Report,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,9. Stop Pay Report,2nd business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,12. DeathTooSooner Report,Acc. to processing calender,Paula Kissel,Monthly Priliminary Cut off ,10:00 AM CST,15,12
+Kinder Morgan,13. Quarterly Lump Sum Report,1st business day of every New quarter,Paula Kissel,Quarterly,4:00 PM CST,15,12
+Kinder Morgan,15. Term Report ,5th business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,16. Rehire Report ,5th business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,17. Monthly Commencement Report ,5th business day of every  month,Paula Kissel,Monthly,4:00 PM CST,15,12
+Kinder Morgan,18. Plantation Pipeline Population Report,1st business day of every  month,Paula Kissel,Monthly,EOD,15,12
+Kinder Morgan, Overpay Risk Reduction ,23rd of each Month,,Monthly,EOD,15,12
+Kinder Morgan,Manual calcs,After Receving Email,Joshua Reid,Adhoc,12 PM CST,15,12
+Kinder Morgan,Data Validation Reports ,Bi Weekly Friday,Paula Kissel,Semi-Monthly,12 PM CST,30,15
+Kinder Morgan,Kinder Morgan WDIH Biweekly Batch Processing,Bi Weekly Friday(After payroll 2nd part and BW to BC file completed),Paula,Bi -Weekly,9:00 AM CST,50,25
+Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,Monday,Joshua Reid,Weekly,8:00 am CST,15,12
+Kinder Morgan,Monthly Billing Counts Report,1st day of the month,Paula,Weekly,,15,12
+Kinder Morgan,Kinder Morgan WDIH Quarterly Processing ,First business day of every quarter,Paula,Monthly,,,
+Kaiser, Weekly Dual Payroll Report,Every Thrusday after HCM financial load,Joshua Reid,Weekly,EOD,50,12
+HMH,Risk Reduction Report,20th of each month,Denise Soll,Monthly,,15,12
+HMH,HMH DOD report,10th of the Month or the next business day if the 10th falls on a weekend,Helena,Monthly,,15,12
+HMCO,Quarterly Cash Balance Reports,1st business day of every New quarter,Denise Soll,Monthly,EOD,15,12
+Hilton,Hilton Quarterly RMD,"quarterly-first day of the second month of each quarter: 2/1, 5/1, 8/1, and 11/1)",Eric/Denise,Quarterly ,EOD,15,12
+Hilton,Overpayment Report ,Wednesday,Eric Takehara,Weekly,ASAP,15,12
+Hilton,OverpayRiskReduction,17th of each Month(or the first Monday for weekends and holidays),Eric Takehara,Monthly,ASAP,15,12
+Hilton,Monthly MbcDbCalcVw Report,1st business day of the month,Helena,,,,
+Hexion,OverpaymentRiskReductionReport,18th of each month (or first business day after holiday),Denise Soll,,,,
+Hexion,HEXION AFN REPORT,After Receving Email/DMG Tool request ,Helena,Yearly,,,
+Hexion,Hexion Billing Report,First business day of each month,Denise Soll,Monthly,,,
+Hertz,Validator Reports ,Next day After Hertz Census Load,Helena,,,15,12
+Hertz,Hertz Overpayment Risk Reduction Report,25th of each month (or first business day after),Denise Soll,Monthly,,,
+Edgewell,1.  Small Sum Cash Out Report,1st business day of every  month,Eric Takehara,Monthly,4:30 PM CST,15,12
+Edgewell,2.   The Ongoing Leveling Report,1st business day of every  month,Eric Takehara,Monthly,4:30 PM CST,15,12
+Edgewell,3. The Monthly Validator Report,1st business day of every  month,Eric Takehara,Monthly,4:30 PM CST,15,12
+Edgewell,1. The Age 62 Leveling Report,1st business day of every New quarter,Eric Takehara,Quarterly,4:30 PM CST,15,12
+Edgewell,2.  The Age 65 Disability In Pay Report,1st business day of every New quarter,Eric Takehara,Quarterly,4:30 PM CST,15,12
+Edgewell,3. The Age 65 Deferred Vested Report,1st business day of every New quarter,Eric Takehara,Quarterly,4:30 PM CST,15,12
+Edgewell,4. Disbursement Report,Acc. to processing calender,Eric Takehara,Monthly,1:00 PM CST,15,12
+Edgewell,5. Future Changes Report,20th of each month,Eric Takehara,Monthly,4:30 PM CST,15,12
+Edgewell,Overpayment Risk Reduction Report,21ST  of each month,Helena,Monthly,,,
+Edgewell,Edgewell Over Pay Parameter  Report,Every Monday,Helena,Weekly,,,
+Conagra,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,,,15,12
+Conagra,Conagra AAC Table Recon Process,Last Conagra Financial file process or last Tuesday of the month,Paula,Monthly,,,
+CBS,OverpaymentRiskReductionReport,13th of each month (or first business day after holiday) ,Paula,,,15,12
+Campbell,OverpaymentRiskReductionReport,21st of each month (or first business day after holiday) ,Paula,,,15,12
+BW Overpayment,BW Overpayment reports ,one day prior to 10th of every month,Denise Soll,Monthly ,EOD,30,15
+BSA,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),,,,15,12
+BJC,OverpaymentRiskReductionReport,20th of each month (or first business day after holiday),Joshua Reid,Monthly,12:00 PM CST,15,12
+Bimbo,Bimbo Age 65/73 Report Instructions,"14th of the month following the quarter, or next business day if a weekend or holiday. in January, April, July, and October ",Joshua Reid,Quarterly ,,,
+Bimbo,Bimbo Rehire Report ,1st business day of each month,Joshua Reid,Monthly,,,
+Bcom,Interest Posting Process,After Receving Email,Carri Gradisca ,Monthly,24 hours,45,30
+BCOm,BCom Maintenance Post Load Reports ,6th of Every month (or following business day).,Carri Gradisca ,Monthly,8:00 am CST,15,12
+Bcom,Interest Posting Process,First Monday start after first BCOM Maintenace file,,,,,
+BBU,Reports,"Monday, Wednesday and Friday",Jason,Thrice in a Week,EOD,15,12
+AVON,New Avon Billing Report,1st business day of each month,Denise Soll,Monthly,,,
+All Client DB Client,LumpSum Data,Monday,Ashish Gupta,Monthly,EOD,15,12
+AIG,OverpaymentRiskReductionReport,22nd of each month (or first business day after holiday) ,Paula,,,15,12
+AEP,Weekly Estimates Online Report,Wednesday,Eric Takehara,Weekly,9:00 AM CST,15,12
+AEP,Person Status Report,1st business day of every  month,Eric Takehara,Monthly,12:00 AM CST,15,12
+AEP,Monthly Person Status Detail Report,1st business day of every  month,Eric Takehara,Monthly,EOD,15,12
+AEP,Adhoc Earning Global Audit Pull Request,After Receving Email/DMG Tool request ,Denise Soll,,,15,12
+AEP,MbcDbCalcVw Report,1st business day of every  month,Denise Soll,,,,
+AEP,Mandatory Cash Out Report,First business day of every quarter,Helena,,,,
+AEP,Overpayment Parameter Report,Friday,Helena,Weekly,EOD,,
+AEP,AEP Cash Balance Report,Run on the 20th of Janaury,Helena,Yearly,,,
+AEP,AEP Cash Leveling Payment Report,"1st business day of every New quarter (January 1st, April 1st, July 1st and October 1st )",Helena,Quaterly,,15,12
+ADP,Monthly Validator reports,1st business day of every  month,Denise Soll,Monthly,4:00 PM CST,15,12
+ADP,	Opt Into Email Global Audit Report ,"15th of each quarter (Jan-Apr-Jul-Oct), or the next business day after if it falls on a weekend",Denise Soll,Bi -Weekly,EOD,15,12
+ADP,ADP ACTIVE SUPSENDED REPORT,"1ST  of every month, or the next business day if the 1ST  falls on a weekend",Denise Soll,Monthly,,12,12

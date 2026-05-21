@@ -1,0 +1,273 @@
+﻿Date,Clients,Data Load,Target Time 
+10-04-2026,AEP,Census Data Load,11:30 AM CST
+10-04-2026,AEP,InactiveDataFile,11:30 AM CST
+10-04-2026,Kaiser,FED Financial,EOD
+10-04-2026,Kaiser,HPMG Census,EOD
+10-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+10-04-2026,WestRock,Data Load,Next day (12:00 PM CST)
+10-04-2026,NYSE,HRIS Data Load,EOD
+10-04-2026,TForce Freight,Data Load,EOD
+10-04-2026,Kaiser,Kaiser-Quarterly YOS ,EOD
+10-04-2026,URS,Data Load,5:00 PM CST
+Date,Clients,Reports,Target Time 
+10-04-2026,TD Bank,Overpayment Risk Reduction Report,EOD
+10-04-2026,MMC,MMC Weekly Disbursement Report,11 AM CST
+10-04-2026,MMC,MMC Weekly Phased Retirement Status Code Report,12:00 PM CST
+10-04-2026,Kinder Morgan,1. Weekly Death  Report ,12:00 PM CST
+10-04-2026,HMH,HMH DOD report,EOD
+10-04-2026,Hertz,Validator Reports ,EOD
+10-04-2026,BBU,Reports,EOD
+10-04-2026,AEP,Overpayment Parameter Report,EOD
+10-04-2026,Kinder Morgan,Manual calc- 9405 (2),EOD
+10-04-2026,Campbell,Cash Balance - 9411,ASAP
+10-04-2026,CBS,Cash Balance - 9394,EOD
+10-04-2026,MMC,Clone Request - 9404,EOD
+10-04-2026,Kinder Morgan,SSN Change - 9413,ASAP
+10-04-2026,Lyondell,Core Trigger - 9402,EOD
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+13-04-2026,AEP,Census Data Load,11:30 AM CST
+13-04-2026,ADP,Census Data Load,EOD
+13-04-2026,AIG,PPSFT ,EOD
+13-04-2026,AIG,BERMUDa,EOD
+13-04-2026,Kaiser,CPMG Census ,EOD
+13-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+13-04-2026,MMC,Data Load,EOD
+13-04-2026,ConAgra,Census File Processing,EOD
+13-04-2026,ConAgra,Financial File Processing,EOD
+13-04-2026,Lyondell,Census Data Load,EOD
+13-04-2026,BCOM3,Data Load,EOD
+13-04-2026,CAMPBELL,Census Data Load,EOD
+13-04-2026,Lyondell,U3,EOD
+Date,Clients,Reports,Target Time 
+13-04-2026,Kinder Morgan,2. Weekly Address Change Report ,12:00 PM CST
+13-04-2026,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,8:00 am CST
+13-04-2026,Edgewell,Edgewell Over Pay Parameter  Report,EOD
+13-04-2026,CBS,OverpaymentRiskReductionReport,EOD
+13-04-2026,BBU,Reports,EOD
+13-04-2026,All Client DB Client,LumpSum Data,EOD
+13-04-2026,Bimbo,Cash Balance - 9401 -(2),EOD
+13-04-2026,Bimbo,Cash Balance - 9412,EOD
+13-04-2026,Lyondell,Clone Request - 9099,EOD
+13-04-2026,HMH,Core Trigger - 9382,EOD
+,,,
+,,,
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+14-04-2026,AEP,Census Data Load,11:30 AM CST
+14-04-2026,AIG,Warnings,EOD
+14-04-2026,Kaiser,TSPMG Census ,EOD
+14-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+14-04-2026,HMH,Census Data Load,EOD
+14-04-2026,Hexion,Census Data Load,24 hrs after receive the file
+14-04-2026,Volvo,SAP HRIS LOAD,EOD
+14-04-2026,Kaiser,Kaiser-Quarterly YOS ,EOD
+14-04-2026,Lyondell,"U1, U2",EOD
+14-04-2026,CAMPBELL,Weekly Financial/Earnings (Hourly participants),EOD
+Date,Clients,Reports,Target Time 
+14-04-2026,Bimbo,`Bimbo Age 65/73 Report,EOD
+14-04-2026,Bimbo,Cash Balance - 9426,EOD
+14-04-2026,MMC,Manual calc- 9428,EOD
+14-04-2026,HMH,Manual caLc- 9439,ASAP
+14-04-2026,Lyondell,Core Trigger - 9402,EOD
+14-04-2026,MMC ,Term report,EOD
+,,,
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+15-04-2026,AEP,Census Data Load,11:30 AM CST
+15-04-2026,AEP,AEP Total Rewards File Transfer,6:00 AM EST and 10:00 AM EST 
+15-04-2026,Kaiser,HCM Financial ,EOD
+15-04-2026,Kaiser,TSPMG Financial,EOD
+15-04-2026,Kaiser,SCPMG Census,EOD
+15-04-2026,Kinder Morgan,HRIS Data Load,4:00 PM CST
+15-04-2026,HMH,Financial Data Load,EOD
+15-04-2026,BBU,Census and Financial Load,EOD
+15-04-2026,BOSCH,Data Load,EOD
+15-04-2026,Kaiser,HCM census file,EOD
+15-04-2026,CBS,Steps For ERD_NRD Updates,EOD
+Date,Clients,Reports,Target Time 
+15-04-2026,TForce Freight,"	Opt Into Email Global Audit Report ",EOD
+15-04-2026,TForce Freight,TForce Monthly BQT Report,EOD
+15-04-2026,TForce Freight,Term Audit Report,EOD
+15-04-2026,TD Bank,"	Opt Into Email Global Audit Report ",EOD
+15-04-2026,Nissan,Monthly Data Validation Reports,EOD
+15-04-2026,Multiple,"	Email Address Review Report ",EOD
+15-04-2026,Hilton,Overpayment Report ,ASAP
+15-04-2026,BBU,Reports,EOD
+15-04-2026,AEP,Weekly Estimates Online Report,9:00 AM CST
+15-04-2026,ADP,"	Opt Into Email Global Audit Report ",EOD
+,,,
+,,,
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+16-04-2026,AEP,Census Data Load,11:30 AM CST
+16-04-2026,AEP,Financial Data Load,11:30 AM CST
+16-04-2026,Kaiser,MAPMG Census ,EOD
+16-04-2026,Kaiser,CPMG Financial,EOD
+16-04-2026,Kaiser,SCPMG Financial,EOD
+16-04-2026,Hertz,Census Load,EOD
+16-04-2026,Hertz,Financial Data Load,EOD
+16-04-2026,Kinder Morgan,Bi-Weekly Pay File,4:00 PM CST
+16-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+16-04-2026,AVON,HRIS Data Load,EOD
+16-04-2026,Kaiser,HCM Post load YOS and Transfer,EOD
+16-04-2026,CAMPBELL,Census Data Load,EOD
+Date,Clients,Reports,Target Time 
+16-04-2026,Bimbo,Cash Balance - 9440,EOD
+16-04-2026,Bimbo,Cash Balance - 9446,EOD
+16-04-2026,Kinder Morgan,SSN Merge -9450,EOD
+16-04-2026,TForce Freight,SSN Change - 9448,EOD
+16-04-2026,TD Bank,Clone Request - 9452,ASAP
+16-04-2026,Lyondell,Clone Request - 9455,EOD
+16-04-2026,ADP,Manual calc- 9453,EOD
+16-04-2026,ADP,Manual calc- 9454,EOD
+16-04-2026,TD Bank,Core Trigger - 9449,EOD
+16-04-2026,Kaiser, Weekly Dual Payroll Report,EOD
+16-04-2026,Bimbo,Cash Balance - 9451/9481,EOD
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+17-04-2026,AEP,Census Data Load,11:30 AM CST
+17-04-2026,AEP,InactiveDataFile,11:30 AM CST
+17-04-2026,Kaiser,MAPMG Financial,EOD
+17-04-2026,Kaiser,HPMG Census,EOD
+17-04-2026,Kinder Morgan,Bi-Weekly Pay File (2nd Part),4:00 PM CST
+17-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+17-04-2026,WestRock,Data Load,Next day (12:00 PM CST)
+17-04-2026,NYSE,HRIS Data Load,EOD
+17-04-2026,TForce Freight,Data Load,EOD
+Date,Clients,Reports,Target Time 
+17-04-2026,MMC,MMC Weekly Disbursement Report,11 AM CST
+17-04-2026,MMC,MMC Other Bank Disbursements Report ,11:00 AM CST
+17-04-2026,MMC,MMC Weekly Phased Retirement Status Code Report,12:00 PM CST
+17-04-2026,MMC,Overpayment Risk Reduction Report ,EOD
+17-04-2026,Kinder Morgan,1. Weekly Death  Report ,12:00 PM CST
+17-04-2026,Kinder Morgan,Data Validation Reports ,12 PM CST
+17-04-2026,Hilton,OverpayRiskReduction,ASAP
+17-04-2026,Hertz,Validator Reports ,EOD
+17-04-2026,BBU,Reports,EOD
+17-04-2026,AEP,Overpayment Parameter Report,EOD
+17-04-2026,EL PASO,Death Entered Too Soon Report,EOD
+17-04-2026,MMC,Manual calc - 9463,EOD
+17-04-2026,Kinder Morgan,Kinder Morgan WDIH Biweekly Batch Processing,9:00 AM CST
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+20-04-2026,AEP,Census Data Load,11:30 AM CST
+20-04-2026,ADP,Census Data Load,EOD
+20-04-2026,AIG,PPSFT ,EOD
+20-04-2026,AIG,BERMUDa,EOD
+20-04-2026,Kaiser,HPMG Financial,EOD
+20-04-2026,Kaiser,CPMG Census ,EOD
+20-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+20-04-2026,ConAgra,Census File Processing,EOD
+20-04-2026,ConAgra,Financial File Processing,EOD
+20-04-2026,Lyondell,Census Data Load,EOD
+20-04-2026,BCOM3,Data Load,EOD
+20-04-2026,CAMPBELL,Census Data Load,EOD
+20-04-2026,Edgewell,Data Load,11:30:00 AM CST
+20-04-2026,Lyondell,"U4, U7, U8",EOD
+Date,Clients,Reports,Target Time 
+20-04-2026,Volvo,Overpayment Risk Reduction Report,EOD
+20-04-2026,SSCC,OverpaymentRiskReductionReport,EOD
+20-04-2026,Region/AMSouth,Overpayment Risk Reduction Report,EOD
+20-04-2026,Kinder Morgan,2. Weekly Address Change Report ,12:00 PM CST
+20-04-2026,Kinder Morgan,Weekly Superceding Calc Indicator/Update Report,8:00 am CST
+20-04-2026,HMH,Risk Reduction Report,EOD
+20-04-2026,Edgewell,5. Future Changes Report,4:30 PM CST
+20-04-2026,Edgewell,Edgewell Over Pay Parameter  Report,EOD
+20-04-2026,Conagra,OverpaymentRiskReductionReport,EOD
+20-04-2026,BSA,OverpaymentRiskReductionReport,EOD
+20-04-2026,BJC,OverpaymentRiskReductionReport,12:00 PM CST
+20-04-2026,BBU,Reports,EOD
+20-04-2026,All Client DB Client,LumpSum Data,EOD
+20-04-2026,Hexion,OverpaymentRiskReductionReport,EOD
+20-04-2026,AEP,Manual calc- 9466,EOS
+20-04-2026,Lyondell,Core Trigger - 9468,EOD
+,,,
+,,,
+Date,Clients,Reports,Target Time 
+21-04-2026,AEP,Census Data Load,11:30 AM CST
+21-04-2026,AIG,Warnings,EOD
+21-04-2026,Kaiser,TSPMG Census ,EOD
+21-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+21-04-2026,HMH,Census Data Load,EOD
+21-04-2026,Hexion,Census Data Load,24 hrs after receive the file
+21-04-2026,Volvo,SAP HRIS LOAD,EOD
+21-04-2026,CAMPBELL,Weekly Financial/Earnings (Hourly participants),EOD
+Date,Clients,Reports,Target Time 
+21-04-2026,MMC,MMC OTR Batch Automation Review, before 12 PM ET
+21-04-2026,Edgewell,Overpayment Risk Reduction Report,EOD
+21-04-2026,Campbell,OverpaymentRiskReductionReport,EOD
+21-04-2026,Bimbo,Cash Balance - 9459 (2),EOD
+21-04-2026,Bimbo,Cash Balance - 9462,EOD
+21-04-2026,Bimbo,Cash Balance - 9465,EOD
+21-04-2026,Edgewell,Manual calc - 9469,EOD
+21-04-2026,Edgewell,Manual calc - 9470,EOD
+21-04-2026,MMC,Manual calc - 9471,EOD
+,,,
+,,,
+,,,
+Date,Clients,Reports,Target Time 
+22-04-2026,AEP,Census Data Load,11:30 AM CST
+22-04-2026,AEP,AEP Total Rewards File Transfer,6:00 AM EST and 10:00 AM EST 
+22-04-2026,Kaiser,HCM Financial ,EOD
+22-04-2026,Kaiser,SCPMG Census,EOD
+22-04-2026,Kinder Morgan,HRIS Data Load,4:00 PM CST
+22-04-2026,Regions,Bi-Weekly Data load,EOD
+22-04-2026,BBU,Census and Financial Load,EOD
+22-04-2026,BOSCH,Data Load,EOD
+22-04-2026,Kaiser,HCM census file,EOD
+22-04-2026,CAMPBELL,Week Financial/Earnings (Salaried participants),EOD
+Date,Clients,Reports,Target Time 
+22-04-2026,Hilton,Overpayment Report ,ASAP
+22-04-2026,BBU,Reports,EOD
+22-04-2026,AIG,OverpaymentRiskReductionReport,EOD
+22-04-2026,AEP,Weekly Estimates Online Report,9:00 AM CST
+22-04-2026,CAMPBELL,Cash Balance -9474 ,ASAP
+22-04-2026,CAMPBELL,Cash Balance -9473,ASAP
+22-04-2026,CAMPBELL,Cash Balance - 9480,ASAP
+,,,
+,,,
+Date,Clients,Reports,Target Time 
+23-04-2026,AEP,Census Data Load,11:30 AM CST
+23-04-2026,BJC,Bi-Weekly Census File,Thursday ASAP
+23-04-2026,Kaiser,FED Census ,EOD
+23-04-2026,Kaiser,MAPMG Census ,EOD
+23-04-2026,Hertz,Census Load,EOD
+23-04-2026,Hertz,Financial Data Load,EOD
+23-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+23-04-2026,AVON,HRIS Data Load,EOD
+23-04-2026,CAMPBELL,Census Data Load,EOD
+23-04-2026,Kaiser,HCM Post load YOS and Transfer,EOD
+Date,Clients,Reports,Target Time 
+23-04-2026,Kinder Morgan, Overpay Risk Reduction ,EOD
+23-04-2026,Kaiser, Weekly Dual Payroll Report,EOD
+23-04-2026,Kinder Morgan,Manual Calc - 9477,EOD
+23-04-2026,Edgewell,Manual Calc - 9485,EOD
+23-04-2026,Bimbo,Cash Balance - 9460,EOD
+23-04-2026,Campbell,Cash Balance - 9484,EOD
+,,,
+,,,
+Date,Clients,Data Load,Target Time 
+24-04-2026,AEP,Census Data Load,11:30 AM CST
+24-04-2026,AEP,InactiveDataFile,11:30 AM CST
+24-04-2026,Kaiser,FED Financial,EOD
+24-04-2026,Kaiser,HPMG Census,EOD
+24-04-2026,Kinder Morgan,BW to Benecalc,4:00 PM CST
+24-04-2026,WestRock,Data Load,Next day (12:00 PM CST)
+24-04-2026,URS,Data Load,5:00 PM CST
+24-04-2026,URS,Term Batch,Friday EOD but after dataload
+24-04-2026,NYSE,HRIS Data Load,EOD
+24-04-2026,TForce Freight,Data Load,EOD
+Date,Clients,Reports,Target Time 
+24-04-2026,MMC,MMC Weekly Disbursement Report,11 AM CST
+24-04-2026,MMC,MMC Weekly Phased Retirement Status Code Report,12:00 PM CST
+24-04-2026,Kinder Morgan,1. Weekly Death  Report ,12:00 PM CST
+24-04-2026,Hertz,Validator Reports ,EOD
+24-04-2026,BBU,Reports,EOD
+24-04-2026,AEP,Overpayment Parameter Report,EOD
