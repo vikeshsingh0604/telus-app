@@ -130,33 +130,82 @@ current_week_label = f"{week_map[week_number]} {today_day_name}".lower()
 # 2. MATCH FUNCTION
 # ==============================
 def check_dependent_task(client_keyword, process_keyword):
+    # Check Google Sheet first, then fall back to local files if needed
+    prev_bday = today - timedelta(days=1)
 
+    if today.weekday() == 0:
+        prev_bday = today - timedelta(days=3)
+
+    date_str = prev_bday.strftime("%Y-%m-%d")
+
+    # 1) Try Google Sheets tracker
     try:
         df_t = get_tracker_data()
-
-        # Handle empty tracker
-        if df_t.empty or "Date" not in df_t.columns:
-            return False
-
-        prev_bday = today - timedelta(days=1)
-
-        if today.weekday() == 0:
-            prev_bday = today - timedelta(days=3)
-
-        date_str = prev_bday.strftime("%Y-%m-%d")
-
-        df_d = df_t[df_t["Date"].astype(str) == date_str]
-
-        for _, row in df_d.iterrows():
-
-            c = str(row.get("Clients", "")).lower()
-            p = str(row.get("Process", "")).lower()
-
-            if client_keyword.lower() in c and process_keyword.lower() in p:
-                return True
-
+        if not df_t.empty and "Date" in df_t.columns:
+            df_d = df_t[df_t["Date"].astype(str) == date_str]
+            for _, row in df_d.iterrows():
+                c = str(row.get("Clients", "")).lower()
+                p = str(row.get("Process", "")).lower()
+                if client_keyword.lower() in c and process_keyword.lower() in p:
+                    return True
     except Exception as e:
-        print("Dependency check error:", e)
+        print("Dependency check (google) error:", e)
+
+    # 2) Fallback: local Tracker.csv (or tracker.csv)
+    try:
+        for candidate in ["Tracker.csv", "tracker.csv"]:
+            if os.path.exists(candidate):
+                try:
+                    df_local = pd.read_csv(candidate, dtype=str, encoding="utf-8-sig")
+                except Exception:
+                    df_local = pd.read_csv(candidate, dtype=str)
+
+                if "Date" in df_local.columns:
+                    for _, row in df_local.iterrows():
+                        date_val = str(row.get("Date", "")).strip()
+                        parsed = None
+                        try:
+                            parsed = dateutil.parser.parse(date_val)
+                        except Exception:
+                            try:
+                                parsed = dateutil.parser.parse(date_val, dayfirst=True)
+                            except Exception:
+                                parsed = None
+
+                        if parsed and parsed.date() == prev_bday.date():
+                            c = str(row.get("Clients", "")).lower()
+                            p = str(row.get("Process", "")).lower()
+                            if client_keyword.lower() in c and process_keyword.lower() in p:
+                                return True
+    except Exception as e:
+        print("Dependency check (local tracker) error:", e)
+
+    # 3) Fallback: Bi-Weekly Details file (usually DD-MM-YYYY format)
+    try:
+        candidate = "Bi-Weekly Details.csv"
+        if os.path.exists(candidate):
+            with open(candidate, encoding="utf-8-sig") as f:
+                for line in f:
+                    parts = [p.strip() for p in line.split(',')]
+                    if not parts:
+                        continue
+                    date_val = parts[0]
+                    parsed = None
+                    try:
+                        parsed = dateutil.parser.parse(date_val, dayfirst=True)
+                    except Exception:
+                        try:
+                            parsed = dateutil.parser.parse(date_val)
+                        except Exception:
+                            parsed = None
+
+                    if parsed and parsed.date() == prev_bday.date():
+                        c = parts[1].lower() if len(parts) > 1 else ""
+                        p = parts[2].lower() if len(parts) > 2 else ""
+                        if client_keyword.lower() in c and process_keyword.lower() in p:
+                            return True
+    except Exception as e:
+        print("Dependency check (bi-weekly) error:", e)
 
     return False
 
