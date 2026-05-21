@@ -1,0 +1,9 @@
+# Ignore Google service account key
+credentials.json
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore output files
+output.csv
