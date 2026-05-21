@@ -20,20 +20,56 @@ def load_google_credentials():
         "https://spreadsheets.google.com/feeds",
         "https://www.googleapis.com/auth/drive"
     ]
-
+    # 1) Prefer local file if present (useful for local development)
     if os.path.exists("credentials.json"):
         return Credentials.from_service_account_file("credentials.json", scopes=scope)
 
+    # 2) Environment variable (useful for CI or manual env export)
     service_account_json = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON") or os.environ.get("GOOGLE_CREDENTIALS_JSON")
     if service_account_json:
         try:
             data = json.loads(service_account_json)
             return Credentials.from_service_account_info(data, scopes=scope)
         except Exception as e:
-            raise ValueError(f"Invalid JSON in GOOGLE_SERVICE_ACCOUNT_JSON: {e}")
+            # fall through to next option
+            print(f"Warning: invalid JSON in environment variable: {e}")
+
+    # 3) Streamlit secrets (useful when running inside Streamlit process)
+    try:
+        import streamlit as st
+        # st.secrets may be a dict-like object
+        secrets = getattr(st, "secrets", None)
+        if secrets:
+            # Try common secret keys
+            possible_keys = [
+                "GOOGLE_SERVICE_ACCOUNT_JSON",
+                "GOOGLE_CREDENTIALS_JSON",
+                "google_service_account_json",
+                "google_credentials_json",
+                "google_service_account",
+                "google_credentials",
+            ]
+            for k in possible_keys:
+                if k in secrets:
+                    val = secrets[k]
+                    if isinstance(val, dict):
+                        return Credentials.from_service_account_info(val, scopes=scope)
+                    try:
+                        data = json.loads(val)
+                        return Credentials.from_service_account_info(data, scopes=scope)
+                    except Exception:
+                        # not JSON string, continue
+                        pass
+
+            # If secrets contains a nested dict that resembles service account, use it
+            for v in (secrets.values() if isinstance(secrets, dict) else []):
+                if isinstance(v, dict) and v.get("type") == "service_account":
+                    return Credentials.from_service_account_info(v, scopes=scope)
+    except Exception:
+        pass
 
     raise FileNotFoundError(
-        "No Google service account credentials found. Provide credentials.json or set GOOGLE_SERVICE_ACCOUNT_JSON."
+        "No Google service account credentials found. Provide credentials.json, set GOOGLE_SERVICE_ACCOUNT_JSON, or add the key to Streamlit secrets."
     )
 
 
@@ -97,6 +133,10 @@ def check_dependent_task(client_keyword, process_keyword):
 
     try:
         df_t = get_tracker_data()
+
+        # Handle empty tracker
+        if df_t.empty or "Date" not in df_t.columns:
+            return False
 
         prev_bday = today - timedelta(days=1)
 
@@ -682,25 +722,45 @@ try:
     current_date_str = today.strftime("%Y-%m-%d")
 
     # Remove existing rows of today's date
-    if not tracker_df.empty:
+    if not tracker_df.empty and "Date" in tracker_df.columns:
         tracker_df = tracker_df[
             tracker_df["Date"].astype(str) != current_date_str
         ]
 
-    # Combine old + new
-    updated_tracker = pd.concat(
-        [tracker_df, final_df],
-        ignore_index=True
-    )
+    # Create clean copy of final_df for Google Sheets
+    sheets_df = final_df.copy()
+    
+    # Replace NaN values with empty strings
+    sheets_df = sheets_df.fillna("")
+    
+    # Convert all values to strings and strip whitespace
+    sheets_df = sheets_df.astype(str).apply(lambda x: x.str.strip() if x.dtype == "object" else x)
+
+    # Combine old + new (only if tracker has data)
+    if not tracker_df.empty:
+        # Ensure tracker_df also has Source column for consistency
+        if "Source" not in tracker_df.columns:
+            tracker_df["Source"] = ""
+        tracker_df = tracker_df.fillna("")
+        updated_tracker = pd.concat(
+            [tracker_df, sheets_df],
+            ignore_index=True
+        )
+    else:
+        updated_tracker = sheets_df
 
     # Remove duplicates
     updated_tracker.drop_duplicates(inplace=True)
 
     # Sort by Date
-    updated_tracker = updated_tracker.sort_values(
-        by="Date",
-        ignore_index=True
-    )
+    try:
+        updated_tracker = updated_tracker.sort_values(
+            by="Date",
+            ignore_index=True
+        )
+    except Exception:
+        # If Date column sorting fails, just reset index
+        updated_tracker.reset_index(drop=True, inplace=True)
 
     creds = load_google_credentials()
     client = gspread.authorize(creds)
@@ -714,10 +774,12 @@ try:
     sheet.append_row(header)
     print(f"Google Sheets: appended header {header}")
 
-    # Add data
-    rows = updated_tracker.astype(str).values.tolist()
+    # Add data - ensure all values are strings and no NaN
+    rows = updated_tracker.values.tolist()
     for index, row in enumerate(rows, start=1):
-        sheet.append_row(row)
+        # Convert all row values to strings, replacing any lingering NaN with ""
+        clean_row = [str(v) if pd.notna(v) else "" for v in row]
+        sheet.append_row(clean_row)
     print(f"Google Sheets: appended {len(rows)} data rows")
     print("Google Sheets: update completed successfully")
 
