@@ -1,6 +1,9 @@
 # Ignore Google service account key
 credentials.json
 
+# Ignore macOS metadata
+.DS_Store
+
 # Ignore Python cache files
 __pycache__/
 *.pyc

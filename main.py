@@ -1,4 +1,5 @@
 import argparse
+import json
 import pandas as pd
 from datetime import datetime
 import os
@@ -14,6 +15,28 @@ parser.add_argument("--selected-date", dest="selected_date", type=str)
 args, _ = parser.parse_known_args()
 
 
+def load_google_credentials():
+    scope = [
+        "https://spreadsheets.google.com/feeds",
+        "https://www.googleapis.com/auth/drive"
+    ]
+
+    if os.path.exists("credentials.json"):
+        return Credentials.from_service_account_file("credentials.json", scopes=scope)
+
+    service_account_json = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON") or os.environ.get("GOOGLE_CREDENTIALS_JSON")
+    if service_account_json:
+        try:
+            data = json.loads(service_account_json)
+            return Credentials.from_service_account_info(data, scopes=scope)
+        except Exception as e:
+            raise ValueError(f"Invalid JSON in GOOGLE_SERVICE_ACCOUNT_JSON: {e}")
+
+    raise FileNotFoundError(
+        "No Google service account credentials found. Provide credentials.json or set GOOGLE_SERVICE_ACCOUNT_JSON."
+    )
+
+
 # ==============================
 # GOOGLE SHEET READ FUNCTION
 # ==============================
@@ -21,18 +44,7 @@ args, _ = parser.parse_known_args()
 def get_tracker_data():
 
     print("Google Sheets: loading tracker data from 'Task Tracker'")
-    if not os.path.exists("credentials.json"):
-        raise FileNotFoundError("credentials.json not found. Please provide a valid service account key file.")
-
-    scope = [
-        "https://spreadsheets.google.com/feeds",
-        "https://www.googleapis.com/auth/drive"
-    ]
-
-    creds = Credentials.from_service_account_file(
-        "credentials.json",
-        scopes=scope
-    )
+    creds = load_google_credentials()
 
     client = gspread.authorize(creds)
     sheet = client.open("Task Tracker").sheet1
@@ -690,20 +702,7 @@ try:
         ignore_index=True
     )
 
-    # Connect to Google Sheets
-    if not os.path.exists("credentials.json"):
-        raise FileNotFoundError("credentials.json not found. Please provide a valid service account key file.")
-
-    scope = [
-        "https://spreadsheets.google.com/feeds",
-        "https://www.googleapis.com/auth/drive"
-    ]
-
-    creds = Credentials.from_service_account_file(
-        "credentials.json",
-        scopes=scope
-    )
-
+    creds = load_google_credentials()
     client = gspread.authorize(creds)
     sheet = client.open("Task Tracker").sheet1
 
