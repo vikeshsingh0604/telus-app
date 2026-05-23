@@ -7,12 +7,26 @@ import runpy
 import io
 import contextlib
 
-st.set_page_config(page_title="Task Automation System", layout="wide")
-st.title("Task Automation System")
-st.markdown(
-    "Generate task output for a selected date and review the results directly in the Streamlit app."
+st.set_page_config(page_title="Telus International Task Automation", page_icon="🌍", layout="wide")
+
+st.sidebar.header("Telus International")
+st.sidebar.write(
+    "Manage task generation for your team with quick date selection, logging, and CSV output review."
+)
+st.sidebar.markdown(
+    "**How to use:**\n- Select a date\n- Click Generate Tasks\n- Review results and logs below"
 )
 
+st.markdown(
+    "<div style='padding:24px; background:linear-gradient(135deg, #00a0dc 0%, #a2d5fa 100%); border-radius:16px; color:#ffffff;'>"
+    "<h1 style='margin:0; font-size:2.75rem;'>Telus International Task Automation</h1>"
+    "<p style='margin:8px 0 0; font-size:1.05rem; max-width:760px;'>"
+    "Automate daily task generation and review results for the Telus International team with a simple Streamlit interface."
+    "</p></div>",
+    unsafe_allow_html=True,
+)
+
+st.write("### Select the date for task creation")
 selected_date = st.date_input("Select Date", value=date.today())
 
 if st.button("Generate Tasks"):
