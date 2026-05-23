@@ -1,5 +1,5 @@
 import streamlit as st
-from datetime import datetime
+from datetime import date
 import os
 import sys
 import pandas as pd
@@ -13,7 +13,7 @@ st.markdown(
     "Generate task output for a selected date and review the results directly in the Streamlit app."
 )
 
-selected_date = st.date_input("Select Date", value=datetime.today())
+selected_date = st.date_input("Select Date", value=date.today())
 
 if st.button("Generate Tasks"):
 
