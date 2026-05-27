@@ -9,6 +9,7 @@ import dateutil.parser
 from datetime import timedelta
 import gspread
 from google.oauth2.service_account import Credentials
+import time
 
 parser = argparse.ArgumentParser(add_help=False)
 parser.add_argument("--selected-date", dest="selected_date", type=str)
@@ -815,22 +816,47 @@ try:
     client = gspread.authorize(creds)
     sheet = client.open("Task Tracker").sheet1
 
+    # Prepare header + rows as a single value matrix for a single update call
+    header = updated_tracker.columns.tolist()
+    rows = updated_tracker.values.tolist()
+    values = [header] + [[str(v) if pd.notna(v) else "" for v in row] for row in rows]
+
+    # Clear then perform a single batch update with retries/backoff to handle quota limits
     sheet.clear()
     print("Google Sheets: cleared existing sheet contents")
 
-    # Add header
-    header = updated_tracker.columns.tolist()
-    sheet.append_row(header)
-    print(f"Google Sheets: appended header {header}")
+    max_retries = 5
+    backoff = 1
+    success = False
+    for attempt in range(1, max_retries + 1):
+        try:
+            # Use a single update call to reduce write requests and avoid per-row append limits
+            sheet.update('A1', values)
+            print(f"Google Sheets: appended {len(rows)} data rows (batch update)")
+            print("Google Sheets: update completed successfully")
+            success = True
+            break
+        except Exception as ex:
+            print(f"Google Sheets: update attempt {attempt} failed: {ex}")
+            # If last attempt, break and fallback
+            if attempt == max_retries:
+                break
+            # Exponential backoff with jitter
+            sleep_time = backoff + (0.1 * attempt)
+            print(f"Google Sheets: retrying in {sleep_time} seconds...")
+            time.sleep(sleep_time)
+            backoff *= 2
 
-    # Add data - ensure all values are strings and no NaN
-    rows = updated_tracker.values.tolist()
-    for index, row in enumerate(rows, start=1):
-        # Convert all row values to strings, replacing any lingering NaN with ""
-        clean_row = [str(v) if pd.notna(v) else "" for v in row]
-        sheet.append_row(clean_row)
-    print(f"Google Sheets: appended {len(rows)} data rows")
-    print("Google Sheets: update completed successfully")
+    if not success:
+        # Fallback: write a pending update file locally so user can retry later
+        fallback_file = "pending_tracker_update.csv"
+        try:
+            updated_tracker.to_csv(fallback_file, index=False)
+            print(f"Google Sheets: update failed after {max_retries} attempts. Wrote fallback file: {fallback_file}")
+            print(f"⚠️ Could not update Google Sheet after retries: {ex}")
+        except Exception as save_ex:
+            print(f"Google Sheets: failed to write fallback file: {save_ex}")
+            print(f"⚠️ Could not update Google Sheet: {ex}")
 
 except Exception as e:
     print("Google Sheets: update failed:", e)

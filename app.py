@@ -67,3 +67,31 @@ if st.button("Generate Tasks"):
         st.dataframe(df)
     else:
         st.warning("No output file was generated. Please verify the logs and try again.")
+
+    # If a previous Google Sheets update failed, a fallback CSV may exist
+    pending_file = "pending_tracker_update.csv"
+    if os.path.exists(pending_file):
+        st.warning(f"A pending Google Sheets update exists: {pending_file}")
+        if st.button("Retry Google Sheets Upload"):
+            stdout_buf2 = io.StringIO()
+            stderr_buf2 = io.StringIO()
+            try:
+                with contextlib.redirect_stdout(stdout_buf2), contextlib.redirect_stderr(stderr_buf2):
+                    runpy.run_path("push_pending.py", run_name="__main__")
+                st.success("Retry completed — see logs below.")
+            except SystemExit as e:
+                stderr_buf2.write(f"SystemExit: {e}\n")
+                st.error(f"Retry script exited: {e}")
+            except Exception as e:
+                stderr_buf2.write(str(e) + "\n")
+                st.error(f"Retry failed: {e}")
+
+            st.subheader("Retry Logs")
+            out = stdout_buf2.getvalue()
+            err = stderr_buf2.getvalue()
+            if out:
+                st.code(out.strip(), language="bash")
+            if err:
+                st.code(err.strip(), language="bash")
+            if not out and not err:
+                st.write("No logs produced by retry.")
