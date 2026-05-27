@@ -22,21 +22,22 @@ def _local_logo_path():
 
 logo_path = _local_logo_path()
 
-st.markdown(
-    f"""
+css = """
     <style>
-    :root {{ --primary: {PRIMARY}; --secondary: {SECONDARY}; }}
-    .td-header {{ display:flex; align-items:center; gap:12px; }}
-    .td-title {{ font-size:28px; font-weight:700; color:var(--secondary); margin:0; }}
-    .td-sub {{ color:#444; margin:0; }}
-    .td-card {{ border-radius:10px; padding:12px; background:linear-gradient(90deg, rgba(255,255,255,0.8), rgba(245,245,245,0.8)); box-shadow:0 4px 14px rgba(0,0,0,0.06); margin-bottom:10px }}
-    .td-pill {{ display:inline-block; padding:4px 8px; border-radius:999px; background:var(--primary); color:white; font-weight:600; font-size:12px }}
-    .td-small {{ color:#666; font-size:13px }}
-    .stButton>button { background: var(--primary); color: white; }
+    :root { --primary: PRIMARY_TOKEN; --secondary: SECONDARY_TOKEN; }
+    .td-header { display:flex; align-items:center; gap:12px; }
+    .td-title { font-size:28px; font-weight:700; color:var(--secondary); margin:0; }
+    .td-sub { color:#444; margin:0; }
+    .td-card { border-radius:10px; padding:12px; background-image:linear-gradient(90deg, rgba(255,255,255,0.8), rgba(245,245,245,0.8)); background-color:#fff; box-shadow:0 4px 14px rgba(0,0,0,0.06); margin-bottom:10px }
+    .td-pill { display:inline-block; padding:4px 8px; border-radius:999px; background:var(--primary); color:white; font-weight:600; font-size:12px }
+    .td-small { color:#666; font-size:13px }
+    .stButton>button, .stButton>button:hover { background: var(--primary) !important; color: white !important; }
     </style>
-    """,
-    unsafe_allow_html=True,
-)
+    """
+
+css = css.replace("PRIMARY_TOKEN", PRIMARY).replace("SECONDARY_TOKEN", SECONDARY)
+
+st.markdown(css, unsafe_allow_html=True)
 
 col1, col2 = st.columns([0.12, 0.88])
 with col1:
