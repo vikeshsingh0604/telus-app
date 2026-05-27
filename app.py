@@ -108,22 +108,68 @@ if st.sidebar.button("Generate Tasks"):
         df = pd.read_csv("output.csv")
         st.success("Tasks Generated Successfully ✅")
 
-        # Render tasks as compact cards for better readability
+        # Top metrics
+        total = len(df)
+        by_source = df["Source"].fillna("UNKNOWN").value_counts().to_dict()
+        c1, c2, c3 = st.columns([1, 2, 1])
+        c1.metric("Total Tasks", total)
+        c2.markdown(
+            """
+            <div style="padding:6px 12px; border-radius:8px; background:#f7f7f7">
+            <strong>Sources:</strong>
+            """
+            + " ".join(
+                [
+                    f"<span style='margin-left:8px; padding:4px 8px; background:#eee; border-radius:6px;'>{k}: {v}</span>"
+                    for k, v in by_source.items()
+                ]
+            )
+            + "</div>",
+            unsafe_allow_html=True,
+        )
+        c3.markdown("")
+
         st.markdown("### Today's Tasks")
-        for _, r in df.iterrows():
-            client = r.get("Clients", "")
-            process = r.get("Process", "")
-            sched = r.get("Scheduled Day", "")
-            tat = r.get("TAT", "")
-            aht = r.get("Process AHT", "")
-            peer = r.get("Peer review AHT", "")
-            with st.container():
-                st.markdown('<div class="td-card">', unsafe_allow_html=True)
-                cols = st.columns([0.02, 0.6, 0.38])
-                cols[1].markdown(f"**{client}**  ")
-                cols[1].markdown(f"**{process}**  \n<span class=\"td-small\">{sched} · {tat}</span>", unsafe_allow_html=True)
-                cols[2].markdown(f"<div style=\"text-align:right\"> <span class=\"td-pill\">AHT: {aht}</span> <div class=\"td-small\">Peer: {peer}</div></div>", unsafe_allow_html=True)
-                st.markdown('</div>', unsafe_allow_html=True)
+
+        # Render cards in a responsive 3-column grid
+        cols_per_row = 3
+        rows = (len(df) + cols_per_row - 1) // cols_per_row
+        idx = 0
+        for _ in range(rows):
+            cols = st.columns(cols_per_row)
+            for col in cols:
+                if idx >= len(df):
+                    col.write("")
+                    idx += 1
+                    continue
+                row = df.iloc[idx]
+                client = row.get("Clients", "")
+                process = row.get("Process", "")
+                sched = row.get("Scheduled Day", "")
+                tat = row.get("TAT", "")
+                aht = row.get("Process AHT", "")
+                peer = row.get("Peer review AHT", "")
+                src = row.get("Source", "")
+
+                card_html = f"""
+                <div class="td-card">
+                  <div style="display:flex; justify-content:space-between; align-items:center; gap:8px">
+                    <div>
+                      <div style="font-weight:700; font-size:15px">{client}</div>
+                      <div style="margin-top:4px; font-size:13px">{process}</div>
+                      <div style="margin-top:6px; color:#666; font-size:12px">{sched} · {tat}</div>
+                    </div>
+                    <div style="text-align:right">
+                      <div style="margin-bottom:6px"><span class="td-pill">AHT {aht}</span></div>
+                      <div style="font-size:12px; color:#777">Peer: {peer}</div>
+                      <div style="font-size:11px; color:#999; margin-top:6px">{src}</div>
+                    </div>
+                  </div>
+                </div>
+                """
+
+                col.markdown(card_html, unsafe_allow_html=True)
+                idx += 1
 
     else:
         st.warning("No output file was generated. Please verify the logs and try again.")
