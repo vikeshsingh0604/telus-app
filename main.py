@@ -530,6 +530,16 @@ def is_task_today(value, client="", process=""):
                 return False
 
     # Handle "last day of the month"
+    # Special-case: if client is Lyondell and value says last day, treat as last BUSINESS day
+    if ("last day of every month" in value) or ("last day" in value and "last day of the month" in value):
+        if client and "lyondell" in client.lower():
+            # compute last calendar day then roll back to previous weekday if it's a weekend
+            last_day = calendar.monthrange(today.year, today.month)[1]
+            last = today.replace(day=last_day)
+            while last.weekday() >= 5:  # Sat=5, Sun=6
+                last -= timedelta(days=1)
+            return today.date() == last.date()
+
     if "last day" in value:
         # If tomorrow is a new month, today is the last day
         if (today + timedelta(days=1)).month != today.month:
